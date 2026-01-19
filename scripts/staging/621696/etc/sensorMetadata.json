@@ -1,0 +1,1250 @@
+{
+  "sensors": [
+    {
+      "name": "POWERTRAIN1.ENGINE_RPM",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "",
+      "displayName": "ENGINE RPM",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_REQUESTED_RPM",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "",
+      "displayName": "SOFTWARE REQUESTED RPM",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.POWERTRAIN_STATE",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "POWERTRAIN_STATE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE.HOURS",
+      "unitOfMeasure": "HR",
+      "sampleKey": "ENGINE1.HOURS.ETHO",
+      "displayName": "ENGINE HOURS",
+      "scale": 0.05,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_HOURS",
+      "unitOfMeasure": "HR",
+      "sampleKey": "",
+      "displayName": "ENGINE HOURS",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE1_AWL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "ENGINE LAMP AWL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE1_RSL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "ENGINE LAMP RSL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE1_MIL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "ENGINE LAMP MIL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE1_PRO",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "ENGINE LAMP PRO",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_LOGICAL_CURRENT_GEAR",
+      "unitOfMeasure": "#",
+      "sampleKey": "",
+      "displayName": "CURRENT GEAR",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_LOGICAL_REQUESTED_GEAR",
+      "unitOfMeasure": "#",
+      "sampleKey": "",
+      "displayName": "REQUESTED GEAR",
+      "constraints": []
+    },
+    {
+      "name": "TRANS.LUBE_PRESS",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_TRANSLUBE_01_CONFIG",
+      "sampleKey": "TRANS_LUBE_PRESS_SENSOR",
+      "displayName": "TRANS LUBE PRESSURE",
+      "source": "PRES_TRANSLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "TRANS1.TRF1.TOP",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "TRANS1.TRF1.TOP",
+      "displayName": "TRANS1.TRF1.TOP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRES_TRANSLUBE_01",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "TRANS_LUBE_PRESS_SENSOR",
+      "displayName": "PRES_TRANSLUBE_01",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TRANS_LUBE_PRESS_SENSOR",
+      "unitOfMeasure": "PSI",
+      "displayName": "TRANS_LUBE_PRESS_SENSOR",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TRANS.LUBE_TEMP",
+      "unitOfMeasure": "F",
+      "sampleKey": "TRANS_LUBE_TEMP_SENSOR",
+      "displayName": "LUBE TEMP.",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_INSTANT_NEUTRAL",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "",
+      "displayName": "INSTANT NEUTRAL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_INSTANT_NEUTRAL",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "",
+      "displayName": "SW INSTANT NEUTRAL",
+      "constraints": []
+    },
+    {
+      "name": "TRANS.LOCKUP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "TRANS1.ETC1.TTCLE",
+      "displayName": "TRANS LOCKUP",
+      "constraints": []
+    },
+    {
+      "name": "TRANS1.VH.TVH",
+      "unitOfMeasure": "HR",
+      "displayName": "TRANS. HOURS",
+      "scale": 0.05,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.EFL/P1.EFDP",
+      "unitOfMeasure": "RAW",
+      "displayName": "ENGINE1.EFL/P1.EFDP",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE1.EEC2.EPLACS",
+      "unitOfMeasure": "RAW",
+      "displayName": "ENGINE1.EEC2.EPLACS",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE1.EFL/P1.EOP",
+      "unitOfMeasure": "RAW",
+      "displayName": "ENGINE1.EFL/P1.EOP",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TRANS1.ETC1.TTCLE",
+      "unitOfMeasure": "RAW",
+      "displayName": "TRANS1.ETC1.TTCLE",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PUMP.DISCHARGE_PRESS",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_DISCHARGE_01_CONFIG",
+      "sampleKey": "DISCHARGE_PRESS_SENSOR",
+      "displayName": "DISCHARGE PRESSURE",
+      "source": "PRES_DISCHARGE_01",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_TRIP_SET_POINT",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "",
+      "displayName": "PRESSURE TRIP SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "PUMP.SUCTION_PRESS",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_SUCTION_01_CONFIG",
+      "sampleKey": "SUCTION_PRESSURE_SENSOR",
+      "displayName": "SUCTION PRESS.",
+      "alarmFilter": "Suction Pressure",
+      "source": "PRES_SUCTION_01",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.LUBE_SYSTEM_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "",
+      "displayName": "GREASER ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_REMOTE_CONTROL_MODE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "",
+      "displayName": "REMOTE CONTROL",
+      "constraints": []
+    },
+    {
+      "name": "RAIL.VOLTAGE",
+      "unitOfMeasure": "V",
+      "sampleKey": "DIRTY_POWER",
+      "displayName": "DIRTY POWER",
+      "scale": 0.001,
+      "constraints": [
+        "BatteryVoltage"
+      ]
+    },
+    {
+      "name": "ENGINE.INTAKE-MANIFOLD_PRESS",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE_BOOST_PRESSURE_DIRECT",
+      "displayName": "BOOST PRESS.",
+      "constraints": []
+    },
+    {
+      "name": "TRANS.OIL-DIFF_PRESS",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "TRANS_OIL_DIFF_PRESS",
+      "displayName": "TRANS OIL DIFF PRESSURE",
+      "constraints": []
+    },
+    {
+      "name": "TRANS.TORQUE-CONVERTER_TEMP",
+      "unitOfMeasure": "F",
+      "sampleKey": "TRANS1.TRF2.TTCOOT",
+      "displayName": "TC TEMP",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "TRANS1.TRF2.TTCOOT",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "TRANS1.TRF2.TTCOOT",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_RPM",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "",
+      "displayName": "PUMP RPM",
+      "constraints": []
+    },
+    {
+      "name": "PUMP.LUBE_PRESS",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_PWRENDLUBE_01_CONFIG",
+      "sampleKey": "PUMP_LUBE_PRESS_SENSOR",
+      "displayName": "PUMP LUBE PRESS.",
+      "source": "PRES_PWRENDLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "PUMP.LUBE_TEMP",
+      "unitOfMeasure": "F",
+      "ipcId": "TEMP_PWRENDLUBE_01_CONFIG",
+      "sampleKey": "PUMP_LUBE_TEMP_SENSOR",
+      "displayName": "PUMP LUBE TEMPERATURE",
+      "source": "TEMP_PWRENDLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_FLOW_RATE",
+      "unitOfMeasure": "BPM",
+      "sampleKey": "",
+      "displayName": "FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_HHP",
+      "unitOfMeasure": "HHP",
+      "sampleKey": "",
+      "displayName": "PUMP HHP",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_FLOW_TOTAL",
+      "unitOfMeasure": "BBL",
+      "sampleKey": "",
+      "displayName": "FLOW TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_RPM_SET_POINT",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "",
+      "displayName": "ENGINE RPM SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE.LOAD",
+      "unitOfMeasure": "%",
+      "sampleKey": "ENGINE1.EEC2.EPLACS",
+      "displayName": "ENGINE LOAD",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE.OIL_PRESS",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE1.EFL/P1.EOP",
+      "displayName": "LUBE PRESS.",
+      "scale": 0.5801508,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE.FUEL_PRESS",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE1.EFL/P1.EFDP",
+      "displayName": "FUEL PRESS.",
+      "scale": 0.580150962,
+      "constraints": [
+        "engineFuelPressureLowWarningAtRPM"
+      ]
+    },
+    {
+      "name": "ENGINE_FUEL_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE1.EFL/P1.EFDP",
+      "displayName": "FUEL PRESS.",
+      "constraints": [
+        "engineFuelPressureLowWarningAtRPM"
+      ],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_TEMP",
+      "unitOfMeasure": "F",
+      "sampleKey": "",
+      "displayName": "COOLANT TEMP.",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_TRIPPED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "",
+      "displayName": "POWERTRAIN1.PRESSURE_TRIPPED",
+      "constraints": []
+    },
+    {
+      "name": "EKILL_SWITCH",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "E_KILL",
+      "displayName": "EMERGENCY ENGINE KILL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_PRESSURE_TEST_MODE",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1.IN_PRESSURE_TEST_MODE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_TEST_TARGET_DURATION",
+      "unitOfMeasure": "MS",
+      "displayName": "POWERTRAIN1.PRESSURE_TEST_TARGET_DURATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_RUNNING",
+      "unitOfMeasure": "BOOL",
+      "displayName": "ENGINE RUNNING",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.DD.EOFDP",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE1.DD.EOFDP",
+      "scale": 0.07251887,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_OIL_FILTER_DIFFERENTIAL_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE1.DD.EOFDP",
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE1.ET1.ECT",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE1.ET1.ECT",
+      "scale": 1.8,
+      "offset": -40.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE1.ET1.EOT1",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE1.ET1.EOT1",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.LFC.ETFU",
+      "unitOfMeasure": "GAL",
+      "displayName": "ENGINE1.LFC.ETFU",
+      "scale": 0.132086,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_AIR_FILTER1_DIFF_PRESS",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE_AIR_FILTER1_DIFF_PRESS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_AIR_FILTER2_DIFF_PRESS",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE_AIR_FILTER2_DIFF_PRESS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_BOOST_TEMP_DIRECT",
+      "unitOfMeasure": "F",
+      "sampleKey": "ENGINE_BOOST_TEMP_DIRECT",
+      "displayName": "ENGINE_BOOST_TEMP_DIRECT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "TRANS1.TRF1.TOT",
+      "unitOfMeasure": "F",
+      "displayName": "TRANS1.TRF1.TOT",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TRANS1.TRF1.TFDP",
+      "unitOfMeasure": "PSI",
+      "displayName": "TRANS1.TRF1.TFDP",
+      "scale": 0.145038,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "AUX_BATTERY",
+      "unitOfMeasure": "V",
+      "displayName": "AUX BATTERY VOLTAGE",
+      "scale": 0.001,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "EB07_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "displayName": "EB07 TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "MAINBOARD_BOARD_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "displayName": "MAINBOARD BOARD TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "MAINBOARD_CPU_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "displayName": "MAINBOARD CPU TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_TEMPERATURE",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE TEMP.",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_OIL_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE_OIL_PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TEMP_ENGINE_01",
+      "unitOfMeasure": "F",
+      "displayName": "TEMP_ENGINE_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TEMP_TRANSLUBE_01",
+      "unitOfMeasure": "F",
+      "displayName": "TEMP_TRANSLUBE_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "TRANS_TORQUE_CONV_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "TRANS_TORQUE_CONV_TEMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "VOLTAGE_FAN_CONTROL",
+      "unitOfMeasure": "V",
+      "displayName": "VOLTAGE_FAN_CONTROL",
+      "scale": 0.001,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "CONTROL_CURRENT_CONTROL_IP",
+      "unitOfMeasure": "RAW",
+      "displayName": "CONTROL CURRENT CONTROL IP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRIVE_SHAFT_COVER",
+      "unitOfMeasure": "BOOL",
+      "displayName": "DRIVE SHAFT COVER",
+      "constraints": []
+    },
+    {
+      "name": "START",
+      "unitOfMeasure": "BOOL",
+      "displayName": "START",
+      "constraints": []
+    },
+    {
+      "name": "IGNITION",
+      "unitOfMeasure": "BOOL",
+      "displayName": "IGNITION",
+      "constraints": []
+    },
+    {
+      "name": "INSTANT_NEUTRAL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "INSTANT NEUTRAL",
+      "constraints": []
+    },
+    {
+      "name": "LOCAL_CONTROL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "LOCAL CONTROL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_TRACKER.PUMP_STROKES",
+      "unitOfMeasure": "RAW",
+      "displayName": "POWERTRAIN1 PUMP TRACKER PUMP STROKES",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_TRACKER.PUMPING_TIME",
+      "unitOfMeasure": "HR",
+      "displayName": "POWERTRAIN1 PUMP TRACKER PUMPING TIME",
+      "scale": 0.000277777785,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_EKILL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 SOFTWARE EKILL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_EKILL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 IN EKILL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANSITION_EKILL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 TRANSITION EKILL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANSITION_INSTANT_NEUTRAL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 TRANSITION INSTANT NEUTRAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_ENABLED",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 ENGINE ENABLED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_WARMUP",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 IN WARMUP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.START_RUN_ENABLED",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 START RUN ENABLED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.EEC1.ES",
+      "unitOfMeasure": "RPM",
+      "displayName": "ENGINE1 EEC1 ES",
+      "scale": 0.125,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.IC1.EIM1P",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE1 IC1 EIM1P",
+      "scale": 0.290075481,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_BOOST_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE1 IC1 EIM1P",
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_FLOW_ROTATIONS",
+      "unitOfMeasure": "#",
+      "displayName": "POWERTRAIN1 PUMP FLOW ROTATIONS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_ERROR",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 PUMP ERROR",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.LUBE_ENABLE_RELAY_ON",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 LUBE ENABLE RELAY ON",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.LUBE_SYSTEM_ERROR",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 LUBE SYSTEM ERROR",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.LUBE_SYSTEM_ALARM",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 LUBE SYSTEM ALARM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_LOCKUP_DISABLED",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 TRANS LOCKUP DISABLED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_TORQUE_CONVERTER_LOCKUP_STATE",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 TRANS TORQUE CONVERTER LOCKUP STATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_OUTPUT_RPM",
+      "unitOfMeasure": "RPM",
+      "displayName": "POWERTRAIN1 TRANS OUTPUT RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IS_ACCUM_TIME",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 IS ACCUM TIME",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_INSTANT_BRAKE",
+      "unitOfMeasure": "BOOL",
+      "displayName": "SW INSTANT BRAKE",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_STOP_ENGINE",
+      "unitOfMeasure": "BOOL",
+      "displayName": "SW STOP ENGINE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.IC1.EEGT",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE EXHAUST GAS TEMP",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.ET.EEGT_RM",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE EXHAUST RM GAS TEMP",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.ET.EEGT_LM",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE EXHAUST LM GAS TEMP",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "TRANS_OIL_DIFF_PRESS",
+      "unitOfMeasure": "PSI",
+      "displayName": "TRANS_OIL_DIFF_PRESS",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DISCHARGE_PRESS_SENSOR",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_DISCHARGE_01_CONFIG",
+      "displayName": "DISCHARGE PRESS SENSOR",
+      "source": "PRES_DISCHARGE_01",
+      "constraints": []
+    },
+    {
+      "name": "PUMP_LUBE_PRESS_SENSOR",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_PWRENDLUBE_01_CONFIG",
+      "displayName": "PUMP LUBE PRESS SENSOR",
+      "source": "PRES_PWRENDLUBE_01",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SUCTION_PRESSURE_SENSOR",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_SUCTION_01_CONFIG",
+      "displayName": "SUCTION PRESSURE SENSOR",
+      "source": "PRES_SUCTION_01",
+      "constraints": []
+    },
+    {
+      "name": "PUMP_LUBE_TEMP_SENSOR",
+      "unitOfMeasure": "F",
+      "ipcId": "TEMP_PWRENDLUBE_01_CONFIG",
+      "displayName": "PUMP LUBE TEMP SENSOR",
+      "source": "TEMP_PWRENDLUBE_01",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "MFI_6",
+      "unitOfMeasure": "BOOL",
+      "displayName": "MFI 6",
+      "constraints": []
+    },
+    {
+      "name": "MFI_7",
+      "unitOfMeasure": "BOOL",
+      "displayName": "MFI 7",
+      "constraints": []
+    },
+    {
+      "name": "E_KILL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "E KILL",
+      "constraints": []
+    },
+    {
+      "name": "TRANS_LUBE_TEMP_SENSOR",
+      "unitOfMeasure": "F",
+      "ipcId": "IDENTITY",
+      "displayName": "TRANS LUBE TEMP SENSOR",
+      "source": "TEMP_TRANSLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.UNIT_HOURS",
+      "unitOfMeasure": "HR",
+      "displayName": "POWERTRAIN1 UNIT HOURS",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_WARMUP",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 ENGINE WARMUP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_TEST_TARGET_RPM",
+      "unitOfMeasure": "RPM",
+      "displayName": "POWERTRAIN1 PRESSURE TEST TARGET RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_TEST_TARGET_GEAR",
+      "unitOfMeasure": "#",
+      "displayName": "POWERTRAIN1 PRESSURE TEST TARGET GEAR",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_READING",
+      "unitOfMeasure": "PSI",
+      "displayName": "POWERTRAIN1 PRESSURE READING",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.CLUTCH_ENGAGE_REQUESTED",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 CLUTCH ENGAGE REQUESTED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_SPEED_REQ_PERC",
+      "unitOfMeasure": "%",
+      "displayName": "POWERTRAIN1 ENGINE SPEED REQ PERC",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.ENGINE_PERCENT_LOAD",
+      "unitOfMeasure": "%",
+      "displayName": "POWERTRAIN1 ENGINE PERCENT LOAD",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.FAN_ENGINE_REQUESTED_SPEED",
+      "unitOfMeasure": "%",
+      "displayName": "POWERTRAIN1 FAN ENGINE REQUESTED SPEED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.RIGSAVER1_SW",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 RIGSAVER1 SW",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.RIGSAVER2_SW",
+      "unitOfMeasure": "BOOL",
+      "displayName": "POWERTRAIN1 RIGSAVER2 SW",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.HOURS.ETHO",
+      "unitOfMeasure": "HOURS",
+      "displayName": "ENGINE1.HOURS.ETHO",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "POWERTRAIN1.FAN_TRANS_REQUESTED_SPEED",
+      "unitOfMeasure": "RPM",
+      "displayName": "POWERTRAIN1 FAN TRANS REQUESTED SPEED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.FAN_OUTPUT_CURRENT_REQ",
+      "unitOfMeasure": "RAW",
+      "displayName": "POWERTRAIN1 FAN OUTPUT CURRENT REQ",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.FAN_OUTPUT_PERC_REQ",
+      "unitOfMeasure": "%",
+      "displayName": "POWERTRAIN1 FAN OUTPUT PERC REQ",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_BLENDER_STATE",
+      "unitOfMeasure": "RAW",
+      "displayName": "CURRENT BLENDER STATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.EFL/P1.ECP",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE1.EFL/P1.ECP",
+      "scale": 0.580150962,
+      "constraints": []
+    },
+    {
+      "name": "PRES_PWRENDLUBE_01",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "PUMP_LUBE_PRESS_SENSOR",
+      "displayName": "PRES_PWRENDLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "TEMP_PWRENDLUBE_01",
+      "unitOfMeasure": "F",
+      "sampleKey": "PUMP_LUBE_TEMP_SENSOR",
+      "displayName": "TEMP_PWRENDLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.IC1.EIM1T",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE1.IC1.EIM1T",
+      "scale": 1.8,
+      "offset": -40.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.TCI4.ETC1TIT",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE TURBOCHARGER 1 INTAKE TEMP",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.TCI4.ETC2TIT",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE TURBOCHARGER 2 INTAKE TEMP",
+      "scale": 0.05625,
+      "offset": -459.4,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_CRANKCASE_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE CRANKCASE PRESSURE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_AMBIENT_AIR_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE_AMBIENT_AIR_TEMP",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_INTAKE_MANIFOLD2_TEMPERATURE",
+      "unitOfMeasure": "F",
+      "sampleKey": "ENGINE_INTAKE_MANIFOLD2_TEMP_DIRECT",
+      "displayName": "INTAKE TEMP. 2",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_INTAKE_MANIFOLD3_TEMPERATURE",
+      "unitOfMeasure": "F",
+      "sampleKey": "ENGINE_INTAKE_MANIFOLD3_TEMP_DIRECT",
+      "displayName": "INTAKE TEMP. 3",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_INTAKE_MANIFOLD4_TEMPERATURE",
+      "unitOfMeasure": "F",
+      "sampleKey": "ENGINE_INTAKE_MANIFOLD4_TEMP_DIRECT",
+      "displayName": "INTAKE TEMP. 4",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.IMT2.EIM2T",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE1.IMT2.EIM2T",
+      "scale": 1.8,
+      "offset": -40.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE1.IMT2.EIM3T",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE1.IMT2.EIM3T",
+      "scale": 1.8,
+      "offset": -40.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE1.IMT2.EIM4T",
+      "unitOfMeasure": "F",
+      "displayName": "ENGINE1.IMT2.EIM4T",
+      "scale": 1.8,
+      "offset": -40.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "ENGINE_DGB_MODE",
+      "unitOfMeasure": "BOOL",
+      "displayName": "ENGINE_DGB_MODE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_DGB_MODE_SET_POINT",
+      "unitOfMeasure": "BOOL",
+      "displayName": "ENGINE_DGB_MODE_SET_POINT",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_PERCENT_TORQUE",
+      "unitOfMeasure": "%",
+      "ipcId": "IDENTITY",
+      "displayName": "ENGINE_PERCENT_TORQUE",
+      "source": "ENGINE_PERCENT_TORQUE_DIRECT",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_DGB_GAS_SUBSTITUTION",
+      "unitOfMeasure": "%",
+      "displayName": "ENGINE_DGB_GAS_SUBSTITUTION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_DGB_GAS_POST_FILTER_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "displayName": "ENGINE_DGB_GAS_POST_FILTER_PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.EEC1.AE_PT",
+      "unitOfMeasure": "%",
+      "displayName": "ENGINE1.EEC1.AE_PT",
+      "scale": 1.0,
+      "offset": -125.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_DGB_AUTO_ENABLED_SET_POINT",
+      "unitOfMeasure": "BOOL",
+      "displayName": "ENGINE_DGB_AUTO_ENABLED_SET_POINT",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_DGB_STATE",
+      "unitOfMeasure": "#",
+      "displayName": "ENGINE_DGB_STATE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_DGB_DIESEL_STATUS",
+      "unitOfMeasure": "#",
+      "displayName": "ENGINE DGB DIESEL STATUS",
+      "constraints": []
+    },
+    {
+      "name": "GREASER.PRESSURE_01",
+      "unitOfMeasure": "PSI",
+      "ipcId": "GREASER.PRESSURE_01_CONFIG",
+      "displayName": "GREASER.PRESSURE_01",
+      "source": "GREASER.PRESSURE_01_RAW",
+      "constraints": []
+    },
+    {
+      "name": "GREASER.PRESSURE_02",
+      "unitOfMeasure": "PSI",
+      "ipcId": "GREASER.PRESSURE_02_CONFIG",
+      "displayName": "GREASER.PRESSURE_02",
+      "source": "GREASER.PRESSURE_02_RAW",
+      "constraints": []
+    },
+    {
+      "name": "GREASER.PRESSURE_03",
+      "unitOfMeasure": "PSI",
+      "ipcId": "GREASER.PRESSURE_03_CONFIG",
+      "displayName": "GREASER.PRESSURE_03",
+      "source": "GREASER.PRESSURE_03_RAW",
+      "constraints": []
+    },
+    {
+      "name": "GREASER.PRESSURE_04",
+      "unitOfMeasure": "PSI",
+      "ipcId": "GREASER.PRESSURE_04_CONFIG",
+      "displayName": "GREASER.PRESSURE_04",
+      "source": "GREASER.PRESSURE_04_RAW",
+      "constraints": []
+    },
+    {
+      "name": "GREASER.PRESSURE_05",
+      "unitOfMeasure": "PSI",
+      "ipcId": "GREASER.PRESSURE_05_CONFIG",
+      "displayName": "GREASER.PRESSURE_05",
+      "source": "GREASER.PRESSURE_05_RAW",
+      "constraints": []
+    },
+    {
+      "name": "GREASER.PRESSURE_06",
+      "unitOfMeasure": "PSI",
+      "ipcId": "GREASER.PRESSURE_06_CONFIG",
+      "displayName": "GREASER.PRESSURE_06",
+      "source": "GREASER.PRESSURE_06_RAW",
+      "constraints": []
+    },
+    {
+      "name": "PUMP_LUBE_FLOW",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_PWRENDLUBE_01_CONFIG",
+      "sampleKey": "PUMP_LUBE_FLOW_SENSOR",
+      "displayName": "PUMP LUBE FLOW",
+      "source": "FLOW_PWRENDLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.WARM_START_STATE",
+      "unitOfMeasure": "RAW",
+      "displayName": "WARM START STATE",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.WARM_START_REMAINING_MS",
+      "unitOfMeasure": "MS",
+      "displayName": "WARM START COUNTDOWN",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.WARM_START_ENABLED",
+      "unitOfMeasure": "BOOL",
+      "displayName": "WARM START ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.WARM_START_RELAY_STATE",
+      "unitOfMeasure": "BOOL",
+      "displayName": "WARM START RELAY",
+      "constraints": []
+    }
+  ],
+  "fileVersion": 2
+}

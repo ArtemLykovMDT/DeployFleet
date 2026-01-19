@@ -1,0 +1,72 @@
+{
+   "RegistrationName": "621789",
+   "RegistrationDescription": "FPC2189",
+   "SerialNumber": "FCP2189",
+   "PumpModel": "?",
+   "RegistrationGuid": "3716a1cc-1dd2-11b2-8e9c-001d48332e18",
+   "EngineModel": "Cummins QSK50 Tier2",
+   "TransModel": "Allison 9832",
+   "DataVanHMIIp": "10.10.11.207",
+   "LocalHMIIp": "10.10.170.199",
+   "RpcIp": "192.168.0.92",
+   "HardwareRev": "Rev B",
+   "powertrains": {
+      "PUMP1": {
+         "cylinders": 5,
+         "bore": 4.0,
+         "stroke": 8.0,
+         "gearRatio": 6.3530001640319824,
+         "efficiency": 0.93999999761581421
+      },
+      "PWM_FAN_CONTROL": {
+         "enabled": true,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "VOLTAGE_FAN_CONTROL": {
+         "enabled": false,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "PUMPLUBE1": {
+         "rotationsPerLubeCycleOff": 60,
+         "cycleDuration": 15000,
+         "proximityCountsPerCycle": 0
+      }
+   },
+   "configs": {
+      "PRES_DISCHARGE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 15000.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": -8.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": -8.0
+      },
+      "PRES_SUCTION_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 300.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": -535.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": -535.0
+      },
+      "FLOW_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 6.0,
+         "scalingFactor": 1.0,
+         "sensMax": 160.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      }
+   }
+}

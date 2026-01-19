@@ -1,0 +1,123 @@
+{
+   "RegistrationName": "622020",
+   "RegistrationDescription": "Frac Pump",
+   "SerialNumber": "FPC2137",
+   "PumpModel": "Forum/J Mac 3000Q,",
+   "RegistrationGuid": "28e3edb2-1dd2-11b2-bbef-001d48332e7a",
+   "EngineModel": "Cummins QSK50 Tier2",
+   "TransModel": "CAT TH55E90",
+   "DataVanHMIIp": "10.10.11.207",
+   "LocalHMIIp": "10.10.178.151",
+   "RpcIp": "192.168.0.92",
+   "HardwareRev": "Rev B",
+   "configs": {
+      "PRES_DISCHARGE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 15000.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 115.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 115.0
+      },
+      "FLOW_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 6.0,
+         "scalingFactor": 1.0,
+         "sensMax": 160.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_SUCTION_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 300.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": -473.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": -473.0
+      },
+      "PRES_TRANSLUBE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 750.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 750.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      }
+   },
+   "constraints": {
+      "highCircuitLowFlowCriticalAtRpm": {
+         "enabled": true,
+         "equalReading": null,
+         "minReading": 34.0,
+         "maxDuration": 3000,
+         "hmiOnly": false,
+         "resetDuration": 100,
+         "maxReading": null,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      },
+      "highCircuitLowFlowWarningAtRpm": {
+         "enabled": true,
+         "equalReading": null,
+         "minReading": 40.0,
+         "maxDuration": 3000,
+         "hmiOnly": false,
+         "resetDuration": 100,
+         "maxReading": null,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      }
+   },
+   "powertrains": {
+      "PWM_FAN_CONTROL": {
+         "enabled": false,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "VOLTAGE_FAN_CONTROL": {
+         "enabled": true,
+         "invertedRange": false,
+         "constantOn": true,
+         "failOn": true,
+         "highTemperature": 160.0,
+         "lowTemperature": 130.0
+      },
+      "PUMP1": {
+         "cylinders": 5,
+         "bore": 4.0,
+         "stroke": 8.0,
+         "gearRatio": 6.3530001640319824,
+         "efficiency": 0.93999999761581421
+      },
+      "PUMPLUBE1": {
+         "rotationsPerLubeCycleOff": 60,
+         "cycleDuration": 15000,
+         "proximityCountsPerCycle": 0
+      }
+   },
+   "MPCSecondaryIp": "10.10.16.207"
+}

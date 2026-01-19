@@ -1,0 +1,2294 @@
+{
+  "sensors": [
+    {
+      "name": "LVL_TUB_ANALOG",
+      "unitOfMeasure": "%",
+      "ipcId": "LVL_TUB_CONFIG",
+      "sampleKey": "TUB_LEVEL",
+      "displayName": "TUB LEVEL",
+      "source": "LVL_TUB",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "POS_TUB_INLET_VALVE_ANALOG",
+      "unitOfMeasure": "%",
+      "ipcId": "POS_TUB_INLET_VALVE_CONFIG",
+      "sampleKey": "TUB_INLET_VALVE_POSITION",
+      "displayName": "TUB INLET VALVE",
+      "source": "POS_TUB_INLET_VALVE",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_SUPPLY_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_SUPPLY_CONFIG",
+      "sampleKey": "SUPPLY_PRESSURE",
+      "displayName": "PRESSURE SUPPLY",
+      "source": "PRES_SUPPLY",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_SUCTION_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_SUCTION_CONFIG",
+      "sampleKey": "SUCTION_PRESSURE",
+      "displayName": "SUCTION PRESSURE",
+      "source": "PRES_SUCTION",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_DISCHARGE_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_DISCHARGE_CONFIG",
+      "sampleKey": "DISCHARGE_PRESSURE",
+      "displayName": "DISCHARGE PRESSURE",
+      "source": "PRES_DISCHARGE",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_AUGER_HYDRAULICS_01_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_AUGER_HYDRAULICS_01_CONFIG",
+      "sampleKey": "CALC_PRES_AUGER_HYDRAULICS_01",
+      "displayName": "AUGER 1 HYDRAULIC PRESSURE",
+      "source": "PRES_AUGER_HYDRAULICS_01",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_AUGER_HYDRAULICS_02_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_AUGER_HYDRAULICS_02_CONFIG",
+      "sampleKey": "CALC_PRES_AUGER_HYDRAULICS_02",
+      "displayName": "AUGER 2 HYDRAULIC PRESSURE",
+      "source": "PRES_AUGER_HYDRAULICS_02",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_AUGER_HYDRAULICS_03_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_AUGER_HYDRAULICS_03_CONFIG",
+      "sampleKey": "CALC_PRES_AUGER_HYDRAULICS_03",
+      "displayName": "AUGER 3 HYDRAULIC PRESSURE",
+      "source": "PRES_AUGER_HYDRAULICS_03",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.CONTROL_OUTPUT_PERCENT",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.CONTROL_OUTPUT_PERCENT",
+      "displayName": "AUGER 1 THROTTLE PERCENTAGE",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.CONTROL_OUTPUT_PERCENT",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.CONTROL_OUTPUT_PERCENT",
+      "displayName": "AUGER 2 THROTTLE PERCENTAGE",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.CONTROL_OUTPUT_PERCENT",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.CONTROL_OUTPUT_PERCENT",
+      "displayName": "AUGER 3 THROTTLE PERCENTAGE",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "TEMP_HYDRAULIC_FLUID_ANALOG",
+      "unitOfMeasure": "F",
+      "ipcId": "TEMP_HYDRAULIC_FLUID_CONFIG",
+      "sampleKey": "CALC_TEMP_HYDRAULIC_FLUID",
+      "displayName": "HYDRAULIC FLUID TEMP",
+      "source": "TEMP_HYDRAULIC_FLUID",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_OPEN_LOOP_HYDRAULIC_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_OPEN_LOOP_HYDRAULIC_CONFIG",
+      "sampleKey": "PRES_OPEN_LOOP_HYDRAULIC_CALC",
+      "displayName": "OPEN LOOP 1 HYDRAULIC PRESSURE",
+      "source": "PRES_OPEN_LOOP_HYDRAULIC",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_OPEN_LOOP_HYDRAULIC_02_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_OPEN_LOOP_HYDRAULIC_02_CONFIG",
+      "sampleKey": "PRES_OPEN_LOOP_HYDRAULIC_CALC_02",
+      "displayName": "OPEN LOOP 2 HYDRAULIC PRESSURE",
+      "source": "PRES_OPEN_LOOP_HYDRAULIC_02",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_OPEN_LOOP_HYDRAULIC_03_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_OPEN_LOOP_HYDRAULIC_03_CONFIG",
+      "sampleKey": "PRES_OPEN_LOOP_HYDRAULIC_CALC_03",
+      "displayName": "OPEN LOOP 3 HYDRAULIC PRESSURE",
+      "source": "PRES_OPEN_LOOP_HYDRAULIC_03",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_HYDRAULIC_GEARBOX_ANALOG",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "PRES_HYDRAULIC_GEARBOX",
+      "displayName": "HYDRAULIC GEARBOX PRESSURE",
+      "constraints": []
+    },
+    {
+      "name": "PRES_SUCTION_HYDRAULIC_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_SUCTION_HYDRAULIC_CONFIG",
+      "sampleKey": "SUCTION_HYDRAULIC_PRESS",
+      "displayName": "SUCTION HYDRAULIC PRESSURE",
+      "source": "PRES_SUCTION_HYDRAULIC",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_TUB_PADDLE_HYDRAULIC_ANALOG",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_TUB_PADDLE_HYDRAULIC_CONFIG",
+      "sampleKey": "TUB_PADDLE_HYDRAULIC_PRESS",
+      "displayName": "TUB PADDLE HYDRAULIC PRESSURE",
+      "source": "PRES_TUB_PADDLE_HYDRAULIC",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITOMETER_01_ANALOG",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "DENSITOMETER_01_CONFIG",
+      "sampleKey": "DENSITY_DENSITOMETER_01",
+      "displayName": "DENSITOMETER 1",
+      "source": "DENSITOMETER_01",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_SUCTION_MAG_01_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_SUCTION_MAG_01_CONFIG",
+      "sampleKey": "SUCTION_MAG_RATE",
+      "displayName": "FLOW SUCTION MAG",
+      "source": "FLOW_SUCTION_MAG_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_SUCTION_TURB_01_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_SUCTION_TURB_01_CONFIG",
+      "sampleKey": "SUCTION_TURB_RATE",
+      "displayName": "FLOW SUCTION TURB",
+      "source": "FLOW_SUCTION_TURB_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_CALCULATED_CLEAN_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "",
+      "sampleKey": "",
+      "displayName": "BLENDER CALCULATED CLEAN RATE",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_ESTIMATED_CLEAN_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "displayName": "BLENDER ESTIMATED CLEAN RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_BASE_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_SELECTED_BASE_RATE",
+      "displayName": "BLENDER SELECTED BASE RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_BASE_RATE.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_SELECTED_BASE_RATE.CURRENT_SELECTION",
+      "displayName": "BLENDER CURRENT SELECTED BASE RATE",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_CLEAN_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_SELECTED_CLEAN_RATE",
+      "displayName": "BLENDER SELECTED CLEAN RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_CLEAN_RATE.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_SELECTED_CLEAN_RATE.CURRENT_SELECTION",
+      "displayName": "BLENDER CURRENT SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SIMULATED_CLEAN_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_SIMULATED_CLEAN_RATE",
+      "displayName": "BLENDER SIMULATED CLEAN RATE",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_MAG_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "SUCTION_MAG_RATE",
+      "displayName": "SUCTION MAG RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_TURB_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "SUCTION_TURB_RATE",
+      "displayName": "SUCTION TURB RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_MAG_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "SUCTION_MAG_STAGE_TOTAL",
+      "displayName": "SUCTION MAG STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_MAG_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "SUCTION_MAG_STEP_TOTAL",
+      "displayName": "SUCTION MAG STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_TURB_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "SUCTION_TURB_STAGE_TOTAL",
+      "displayName": "SUCTION TURB STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_TURB_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "SUCTION_TURB_STEP_TOTAL",
+      "displayName": "SUCTION TURB STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.DISCHARGE_PUMP_AUTO_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DISCHARGE_PUMP_AUTO",
+      "displayName": "BLENDER TUB DISCHARGE PUMP AUTO",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_PUMP.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.SUCTION_PUMP.AUTO_MODE_ACTIVE",
+      "displayName": "BLENDER TUB SUCTION PUMP AUTO",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_PUMP.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.SUCTION_PUMP.STOP_MODE_ACTIVE",
+      "displayName": "BLENDER TUB SUCTION PUMP STOP",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_PUMP.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.SUCTION_PUMP.CONTROL_OUTPUT_PERCENT",
+      "displayName": "SUCTION PUMP CONTROL OUTPUT PERCENT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_DISCHARGE_MAG_01_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_DISCHARGE_MAG_01_CONFIG",
+      "sampleKey": "DISCHARGE_MAG_RATE",
+      "displayName": "FLOW DISCHARGE MAG",
+      "source": "FLOW_DISCHARGE_MAG_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_DISCHARGE_TURB_01_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_DISCHARGE_TURB_01_CONFIG",
+      "sampleKey": "DISCHARGE_TURB_RATE",
+      "displayName": "FLOW DISCHARGE TURB",
+      "source": "FLOW_DISCHARGE_TURB_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_MAG_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "DISCHARGE_MAG_RATE",
+      "displayName": "DISCHARGE MAG RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TURB_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "DISCHARGE_TURB_RATE",
+      "displayName": "DISCHARGE TURB RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_DISCHARGE_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_SELECTED_DISCHARGE_RATE",
+      "displayName": "BLENDER SELECTED DISCHARGE RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_DISCHARGE_RATE.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_SELECTED_DISCHARGE_RATE.CURRENT_SELECTION",
+      "displayName": "BLENDER SELECTED DISCHARGE RATE CURRENT SELECTION",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_MAG_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "DISCHARGE_MAG_STAGE_TOTAL",
+      "displayName": "DISCHARGE MAG STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_MAG_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "DISCHARGE_MAG_STEP_TOTAL",
+      "displayName": "DISCHARGE MAG STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TURB_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "DISCHARGE_TURB_STAGE_TOTAL",
+      "displayName": "DISCHARGE TURB STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TURB_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "DISCHARGE_TURB_STEP_TOTAL",
+      "displayName": "DISCHARGE TURB STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_CLEAN_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "BLENDER SELECTED CLEAN STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_CLEAN_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "BLENDER SELECTED CLEAN STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_DISCHARGE_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "BLENDER SELECTED DISCHARGE STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_DISCHARGE_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "BLENDER SELECTED DISCHARGE STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "REMAINING_SLURRY_VOLUME",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "REMAINING SLURRY VOLUME",
+      "source": "",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "POUNDS_OF_PROPANT_ADDED",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER.MASS_FLOW_RATE",
+      "displayName": "POUNDS OF PROPANT ADDED",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01_MASS_FLOW_RATE_STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "MAIN_AUGER_01.MASS_STEP_TOTAL",
+      "displayName": "AUGER 1 MASS FLOW RATE STEP TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02_MASS_FLOW_RATE_STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "MAIN_AUGER_02.MASS_STEP_TOTAL",
+      "displayName": "AUGER 2 MASS FLOW RATE STEP TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03_MASS_FLOW_RATE_STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "MAIN_AUGER_03.MASS_STEP_TOTAL",
+      "displayName": "AUGER 3 MASS FLOW RATE STEP TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01_MASS_FLOW_RATE_STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "MAIN_AUGER_01.MASS_STAGE_TOTAL",
+      "displayName": "AUGER 1 MASS FLOW RATE STAGE TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02_MASS_FLOW_RATE_STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "MAIN_AUGER_02.MASS_STAGE_TOTAL",
+      "displayName": "AUGER 2 MASS FLOW RATE STAGE TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03_MASS_FLOW_RATE_STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "MAIN_AUGER_03.MASS_STAGE_TOTAL",
+      "displayName": "AUGER 3 MASS FLOW RATE STAGE TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER_MASS_FLOW_RATE_STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.STAGE_TOTAL",
+      "displayName": "HOPPER MASS FLOW RATE STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER_MASS_FLOW_RATE_STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.STEP_TOTAL",
+      "displayName": "HOPPER MASS FLOW RATE STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.MAIN_HOPPER.ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER.ENABLED",
+      "displayName": "HOPPER CONTROL ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.MASS_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.MASS_FLOW_RATE",
+      "displayName": "AUGER 1 MASS FLOW",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.VOLUMETRIC_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.VOLUMETRIC_FLOW_RATE",
+      "displayName": "AUGER 1 VOLUMETRIC FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.MASS_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.MASS_FLOW_RATE",
+      "displayName": "AUGER 2 MASS FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.VOLUMETRIC_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.VOLUMETRIC_FLOW_RATE",
+      "displayName": "AUGER 2 VOLUMETRIC FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.MASS_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.MASS_FLOW_RATE",
+      "displayName": "AUGER 3 MASS FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.VOLUMETRIC_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.VOLUMETRIC_FLOW_RATE",
+      "displayName": "AUGER 3 VOLUMETRIC FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.EFL/P1.ECP_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "DISCHARGE_ENG.COOLANT_PRESSURE_DIRECT",
+      "displayName": "DISCHARGE ENGINE COOLANT PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.EFL/P1.EOP_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "DISCHARGE_ENG.OIL_PRESSURE_DIRECT",
+      "displayName": "DISCHARGE ENGINE OIL PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.ET1.ECT_RAW",
+      "unitOfMeasure": "F",
+      "sampleKey": "DISCHARGE_ENG.COOLANT_TEMP_DIRECT",
+      "displayName": "DISCHARGE ENGINE COOLANT TEMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.ET1.EOT_RAW",
+      "unitOfMeasure": "F",
+      "sampleKey": "DISCHARGE_ENG.OIL_TEMP_DIRECT",
+      "displayName": "DISCHARGE ENGINE OIL TEMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.EEC1.ES_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "DISCHARGE_ENG.RPM_DIRECT",
+      "displayName": "DISCHARGE ENGINE RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.EEC2.EPLACS_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "DISCHARGE_ENG.LOAD_DIRECT",
+      "displayName": "DISCHARGE ENGINE LOAD",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.IC1.EIM1P_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "DISCHARGE_ENG.INTAKE_MANIFOLD_PRESSURE_DIRECT",
+      "displayName": "DISCHARGE ENGINE MANIFOLD PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.HOURS.ETHO_RAW",
+      "unitOfMeasure": "HR",
+      "sampleKey": "DISCHARGE_ENG.HOURS_DIRECT",
+      "displayName": "DISCHARGE ENGINE HOURS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.VEP1.KBP_RAW",
+      "unitOfMeasure": "V",
+      "sampleKey": "DISCHARGE_ENG.BATTERY_VOLTAGE_DIRECT",
+      "displayName": "DISCHARGE ENGINE BATTERY VOLTAGE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_ENG.SHUTDN.EWSL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_ENG.SHUTDOWN_DIRECT",
+      "displayName": "DISCHARGE ENGINE SHUTDOWN",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.ENGINE_RPM_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "DISCHARGE_POWERTRAIN.ENGINE_RPM",
+      "displayName": "DISCHARGE ENGINE RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.ENGINE_RPM_SET_POINT_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "DISCHARGE_POWERTRAIN.ENGINE_RPM_SET_POINT",
+      "displayName": "DISCHARGE ENGINE RPM SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.PUMP_RPM_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "DISCHARGE_POWERTRAIN.PUMP_RPM",
+      "displayName": "DISCHARGE PUMP RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.EFL/P1.ECP_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "HYDRAULIC_ENG.COOLANT_PRESSURE_DIRECT",
+      "displayName": "HYDRAULIC ENGINE COOLANT PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.EFL/P1.EOP_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "HYDRAULIC_ENG.OIL_PRESSURE_DIRECT",
+      "displayName": "HYDRAULIC ENGINE OIL PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.ET1.ECT_RAW",
+      "unitOfMeasure": "F",
+      "sampleKey": "HYDRAULIC_ENG.COOLANT_TEMP_DIRECT",
+      "displayName": "HYDRAULIC ENGINE COOLANT TEMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.ET1.EOT_RAW",
+      "unitOfMeasure": "F",
+      "sampleKey": "HYDRAULIC_ENG.OIL_TEMP_DIRECT",
+      "displayName": "HYDRAULIC ENGINE OIL TEMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.EEC1.ES_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "HYDRAULIC_ENG.RPM_DIRECT",
+      "displayName": "HYDRAULIC ENGINE RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.EEC2.EPLACS_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "HYDRAULIC_ENG.LOAD_DIRECT",
+      "displayName": "HYDRAULIC ENGINE LOAD",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.IC1.EIM1P_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "HYDRAULIC_ENG.INTAKE_MANIFOLD_PRESSURE_DIRECT",
+      "displayName": "HYDRAULIC ENGINE MANIFOLD PRESSURE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.HOURS.ETHO_RAW",
+      "unitOfMeasure": "HR",
+      "sampleKey": "HYDRAULIC_ENG.HOURS_DIRECT",
+      "displayName": "HYDRAULIC ENGINE HOURS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.VEP1.KBP_RAW",
+      "unitOfMeasure": "V",
+      "sampleKey": "HYDRAULIC_ENG.BATTERY_VOLTAGE_DIRECT",
+      "displayName": "HYDRAULIC ENGINE BATTERY VOLTAGE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_ENG.SHUTDN.EWSL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "HYDRAULIC_ENG.SHUTDOWN_DIRECT",
+      "displayName": "HYDRAULIC ENGINE SHUTDOWN",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.ENGINE_RPM_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.ENGINE_RPM",
+      "displayName": "HYDRAULIC POWERTRAIN ENGINE RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.ENGINE_RPM_SET_POINT_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.ENGINE_RPM_SET_POINT",
+      "displayName": "HYDRAULIC POWERTRAIN ENGINE RPM SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.PRESSURE_READING_PRESSURE_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.PRESSURE_READING",
+      "displayName": "HYDRAULIC POWERTRAIN PRESSURE READING",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.CLUTCH_CURRENT_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_POWERTRAIN.CLUTCH_CURRENT_STATE",
+      "displayName": "DISCHARGE POWERTRAIN CLUTCH STATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.ENGINE_RUNNING_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.ENGINE_RUNNING",
+      "displayName": "HYDRAULIC ENGINE RUNNING",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_PROTECT_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_PROTECT",
+      "displayName": "DISCHARGE POWERTRAIN DISCHARGE ENG PROTECT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_AWL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_AWL",
+      "displayName": "DISCHARGE POWERTRAIN DISCHARGE ENG AWL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_MIL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_MIL",
+      "displayName": "DISCHARGE POWERTRAIN DISCHARGE ENG MIL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_RSL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_POWERTRAIN.DISCHARGE_ENG_RSL",
+      "displayName": "DISCHARGE POWERTRAIN DISCHARGE ENG RSL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_PROTECT_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_PROTECT",
+      "displayName": "HYDRAULIC ENGINE PROTECT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_AWL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_AWL",
+      "displayName": "HYDRAULIC ENGINE AWL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_MIL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_MIL",
+      "displayName": "HYDRAULIC ENGINE MIL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_RSL_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.HYDRAULIC_ENG_RSL",
+      "displayName": "HYDRAULIC ENGINE RSL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.CONCENTRATION_RATE",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.CONCENTRATION_RATE",
+      "displayName": "AUGER 1 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.CLEAN_FLOW_RATE",
+      "displayName": "AUGER 1 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.DELIVERY_RATE_RAW",
+      "unitOfMeasure": "GAL/REV",
+      "persistedUnitOfMeasure": "FT3/REV",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.DELIVERY_RATE",
+      "displayName": "AUGER 1 DELIVERY RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.MASS_PER_REV_RAW",
+      "unitOfMeasure": "LBS/REV",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.MASS_PER_REV",
+      "displayName": "AUGER 1 MASS PER REV",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.CONCENTRATION_RATE",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.CONCENTRATION_RATE",
+      "displayName": "AUGER 2 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.CLEAN_FLOW_RATE",
+      "displayName": "AUGER 2 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.DELIVERY_RATE_RAW",
+      "unitOfMeasure": "GAL/REV",
+      "persistedUnitOfMeasure": "FT3/REV",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.DELIVERY_RATE",
+      "displayName": "AUGER 2 DELIVERY RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.MASS_PER_REV_RAW",
+      "unitOfMeasure": "LBS/REV",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.MASS_PER_REV",
+      "displayName": "AUGER 2 MASS PER REV",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.CONCENTRATION_RATE",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.CONCENTRATION_RATE",
+      "displayName": "AUGER 3 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.CLEAN_FLOW_RATE",
+      "displayName": "AUGER 3 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.DELIVERY_RATE_RAW",
+      "unitOfMeasure": "GAL/REV",
+      "persistedUnitOfMeasure": "FT3/REV",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.DELIVERY_RATE",
+      "displayName": "AUGER 3 DELIVERY RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.MASS_PER_REV_RAW",
+      "unitOfMeasure": "LBS/REV",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.MASS_PER_REV",
+      "displayName": "AUGER 3 MASS PER REV",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.EFFICIENCY_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.EFFICIENCY",
+      "displayName": "AUGER 1 EFFICIENCY",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.EFFICIENCY_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.EFFICIENCY",
+      "displayName": "AUGER 2 EFFICIENCY",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.EFFICIENCY_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.EFFICIENCY",
+      "displayName": "AUGER 3 EFFICIENCY",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.AUTO_MODE_ACTIVE",
+      "displayName": "AUGER 1 AUTO MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.STOP_MODE_ACTIVE",
+      "displayName": "AUGER 1 STOP MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.AUTO_MODE_ACTIVE",
+      "displayName": "AUGER 2 AUTO MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.STOP_MODE_ACTIVE",
+      "displayName": "AUGER 2 STOP MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.AUTO_MODE_ACTIVE",
+      "displayName": "AUGER 3 AUTO MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.STOP_MODE_ACTIVE",
+      "displayName": "AUGER 3 STOP MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.SET_POINT_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.SET_POINT",
+      "displayName": "AUGER 1 SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.SET_POINT_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.SET_POINT",
+      "displayName": "AUGER 2 SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.SET_POINT_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.SET_POINT",
+      "displayName": "AUGER 3 SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.AUTO_MODE_ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.AUTO_MODE_ENABLED",
+      "displayName": "AUGER 1 AUTO MODE ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.AUTO_MODE_ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.AUTO_MODE_ENABLED",
+      "displayName": "AUGER 2 AUTO MODE ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.AUTO_MODE_ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.AUTO_MODE_ENABLED",
+      "displayName": "AUGER 3 AUTO MODE ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_01.CURRENT_OPERATING_MODE",
+      "displayName": "AUGER 1 OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_02.CURRENT_OPERATING_MODE",
+      "displayName": "AUGER 2 OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.MAIN_AUGER_03.CURRENT_OPERATING_MODE",
+      "displayName": "AUGER 3 OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_PUMP.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.SUCTION_PUMP.CURRENT_OPERATING_MODE",
+      "displayName": "SUCTION PUMP OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.BULK_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/FT3",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER_SOURCE.BULK_DENSITY",
+      "displayName": "HOPPER BULK DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.ABSOLUTE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "SG",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER_SOURCE.ABSOLUTE_DENSITY",
+      "displayName": "HOPPER ABSOLUTE DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.VALVE_STATES_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.VALVE_STATES_MODE",
+      "displayName": "BLENDER TUB VALVE STATES MODE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.MASS_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER_SOURCE.MASS_FLOW_RATE",
+      "displayName": "HOPPER MASS FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.VOLUMETRIC_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER_SOURCE.VOLUMETRIC_FLOW_RATE",
+      "displayName": "HOPPER VOLUMETRIC FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER_SOURCE.CONCENTRATION_RATE",
+      "displayName": "HOPPER CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PD_BATTERY_HYDRAULIC_RAW",
+      "unitOfMeasure": "V",
+      "sampleKey": "PD_BATTERY_HYDRAULIC",
+      "displayName": "PD BATTERY HYDRAULIC",
+      "scale": 0.001,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PD_BATTERY_DISCHARGE_RAW",
+      "unitOfMeasure": "V",
+      "sampleKey": "PD_BATTERY_DISCHARGE",
+      "displayName": "PD BATTERY DISCHARGE",
+      "scale": 0.001,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "HYDRAULIC_POWERTRAIN.ENGINE_TEMP_RAW",
+      "unitOfMeasure": "F",
+      "sampleKey": "HYDRAULIC_POWERTRAIN.ENGINE_TEMP",
+      "displayName": "HYDRAULIC POWERTRAIN ENGINE TEMP",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.SET_POINT_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER.SET_POINT",
+      "displayName": "HOPPER SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "MAIN_HOPPER.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "PROPPANT CONCENTRATION DIFFERENCE",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "MAIN_HOPPER.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.MAIN_HOPPER.ON_STAGE",
+      "displayName": "HOPPER ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "SUPPLY_PRESSURE_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "SUPPLY_PRESSURE",
+      "displayName": "SUPPLY PRESSURE",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_PRESSURE_RAW",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "SUCTION_PRESSURE",
+      "displayName": "SUCTION PRESSURE RAW",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.CURRENT_STEP_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.CURRENT_STEP",
+      "displayName": "BLENDER TUB CURRENT STEP",
+      "constraints": []
+    },
+    {
+      "name": "STEP_PROGRESS_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.STEP_PROGRESS",
+      "displayName": "STEP PROGRESS",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.STAGE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.STAGE_STATE",
+      "displayName": "BLENDER TUB STAGE STATE",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_VALVE.REQUESTED_VALVE_POSITION_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DISCHARGE_VALVE.REQUESTED_VALVE_POSITION",
+      "displayName": "DISCHARGE VALVE REQUESTED POSITION",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_VALVE.POSITION_FORCED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DISCHARGE_VALVE.POSITION_FORCED",
+      "displayName": "DISCHARGE VALVE POSITION FORCED",
+      "constraints": []
+    },
+    {
+      "name": "BYPASS_VALVE.REQUESTED_VALVE_POSITION_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.BYPASS_VALVE.REQUESTED_VALVE_POSITION",
+      "displayName": "BYPASS VALVE REQUESTED POSITION",
+      "constraints": []
+    },
+    {
+      "name": "BYPASS_VALVE.POSITION_FORCED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.BYPASS_VALVE.POSITION_FORCED",
+      "displayName": "BYPASS VALVE POSITION FORCED",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_DISCHARGE_VALVE_OPEN_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BOOL_DISCHARGE_VALVE_OPEN",
+      "displayName": "DISCHARGE VALVE OPEN",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "TUB_INLET_VALVE.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.TUB_INLET_VALVE.AUTO_MODE_ACTIVE",
+      "displayName": "TUB INLET VALVE AUTO MODE ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "TUB_INLET_VALVE.POSITION_FORCED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.TUB_INLET_VALVE.POSITION_FORCED",
+      "displayName": "TUB INLET VALVE POSITION FORCED",
+      "constraints": []
+    },
+    {
+      "name": "TUB_MIXER.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.TUB_MIXER.CONTROL_OUTPUT_PERCENT",
+      "displayName": "TUB MIXER CONTROL OUTPUT PERCENT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "TUB_MIXER.MIXER_DIRECTION_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.TUB_MIXER.MIXER_DIRECTION",
+      "displayName": "TUB MIXER DIRECTION",
+      "constraints": []
+    },
+    {
+      "name": "TUB_MIXER.REQUESTED_PADDLE_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.TUB_MIXER.REQUESTED_PADDLE_ON",
+      "displayName": "TUB MIXER REQUESTED PADDLE ON",
+      "constraints": []
+    },
+    {
+      "name": "ACTIVE_PPA_METHOD_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_TUB.ACTIVE_PPA_METHOD",
+      "displayName": "ACTIVE PPA METHOD",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.ENABLED",
+      "displayName": "AUGER PPA ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.CALCULATED_PPA_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.CALCULATED_PPA_DENSITY",
+      "displayName": "AUGER PPA DENSITY",
+      "source": "",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.CALCULATED_PPA_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.CALCULATED_PPA_FLOW_RATE",
+      "displayName": "AUGER PPA FLOW RATE",
+      "source": "",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.STAGE_TOTAL",
+      "displayName": "AUGER PPA STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.STEP_TOTAL",
+      "displayName": "AUGER PPA STEP TOTAL",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_DENSITOMETER_01.ENABLED",
+      "displayName": "DENSITOMETER 1 PPA ENABLED",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_DENSITY",
+      "displayName": "DENSITOMETER 1 PPA DENSITY",
+      "source": "",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_FLOW_RATE",
+      "displayName": "DENSITOMETER 1 PPA FLOW RATE",
+      "source": "",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.PPA_CORRECTION_FACTOR_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_DENSITOMETER_01.PPA_CORRECTION_FACTOR",
+      "displayName": "DENSITOMETER 1 PPA CORRECTION FACTOR",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.PPA_CORRECTION_FACTOR_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS.PPA_CORRECTION_FACTOR",
+      "displayName": "AUGER PPA CORRECTION FACTOR",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.STAGE_TOTAL",
+      "displayName": "DENSITOMETER 1 PPA STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.STEP_TOTAL",
+      "displayName": "DENSITOMETER 1 PPA CALCULATION STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.BASE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.BASE_DENSITY",
+      "displayName": "DENSITOMETER 1 PPA BASE DENSITY",
+      "source": "",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "BLENDER_TUB.CURRENT_CALCULATED_PPA_DENSITY",
+      "displayName": "CURRENT CALCULATED PPA DENSITY",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_TUB.CURRENT_CALCULATED_PPA_FLOW_RATE",
+      "displayName": "CURRENT CALCULATED PPA FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_VOLUME_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_TUB.CURRENT_CALCULATED_PPA_VOLUME_FLOW_RATE",
+      "displayName": "CURRENT CALCULATED PPA VOLUME FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "BLENDER_TUB.CURRENT_CALCULATED_PPA_STAGE_TOTAL",
+      "displayName": "CURRENT CALCULATED PPA STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "BLENDER_TUB.CURRENT_CALCULATED_PPA_STEP_TOTAL",
+      "displayName": "CURRENT CALCULATED PPA STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_MAIN_AUGER.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_MAIN_AUGER.CURRENT_SELECTION",
+      "displayName": "SELECTED CLEAN RATE MAIN AUGER CURRENT SELECTION",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_MAIN_AUGER_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "SELECTED_CLEAN_RATE_MAIN_AUGER",
+      "displayName": "SELECTED AUGER CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_DENSITOMETER_01_AVG",
+      "unitOfMeasure": "LBS/MGAL",
+      "persistedUnitOfMeasure": "LBS/GAL",
+      "sampleKey": "DENSITY_DENSITOMETER_01",
+      "displayName": "DENSITOMETER 1 AVERAGE",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.TUB_LEVEL_CONTROL.TUB_LEVEL_SETPOINT",
+      "unitOfMeasure": "%",
+      "displayName": "TUB LEVEL SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.TUB_INLET_VALVE.TARGET_VALVE_POSITION",
+      "unitOfMeasure": "%",
+      "displayName": "BLENDER TUB INLET SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_SW_SHUTDOWN_CONTROL_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_SW_SHUTDOWN_CONTROL",
+      "displayName": "SW SHUTDOWN CONTROL",
+      "constraints": []
+    },
+    {
+      "name": "ENG.MAINBOARD_BOARD_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "sampleKey": "MAINBOARD_BOARD_TEMPERATURE",
+      "displayName": "MAINBOARD TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ENG.MAINBOARD_CPU_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "sampleKey": "MAINBOARD_CPU_TEMPERATURE",
+      "displayName": "MAINBOARD CPU TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ENG.EB07_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "sampleKey": "EB07_TEMPERATURE",
+      "displayName": "EB07 TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ENG.EB07_STATUS",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "EB07_STATUS",
+      "displayName": "EB07 STATUS",
+      "constraints": []
+    },
+    {
+      "name": "ENG.BLENDER_SIMULATED_DISCHARGE_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_SIMULATED_DISCHARGE_RATE",
+      "displayName": "BLENDER SIMULATED DISCHARGE RATE",
+      "constraints": []
+    },
+    {
+      "name": "ENG.CONTROLLER_IGNITION_INPUT",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "CONTROLLER_IGNITION_INPUT",
+      "displayName": "CONTROLLER IGNITION INPUT",
+      "constraints": []
+    },
+    {
+      "name": "ENG.CONTROLLER_RTOS_SHUTDOWN",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "CONTROLLER_RTOS_SHUTDOWN",
+      "displayName": "CONTROLLER RTOS SHUTDOWN",
+      "constraints": []
+    },
+    {
+      "name": "TUB_DISCHARGE_VALVE_POSITION",
+      "unitOfMeasure": "%",
+      "ipcId": "POS_TUB_DISCHARGE_VALVE_CONFIG",
+      "displayName": "DISCHARGE VALVE POSITION",
+      "source": "POS_TUB_DISCHARGE_VALVE",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "TUB_BYPASS_VALVE_POSITION",
+      "unitOfMeasure": "%",
+      "ipcId": "POS_TUB_BYPASS_VALVE_CONFIG",
+      "displayName": "BYPASS VALVE POSITION",
+      "source": "POS_TUB_BYPASS_VALVE",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_VALVE.IS_OPEN",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DISCHARGE_VALVE.IS_OPEN",
+      "displayName": "DISCHARGE VALVE OPEN",
+      "constraints": []
+    },
+    {
+      "name": "BYPASS_VALVE.IS_OPEN",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.BYPASS_VALVE.IS_OPEN",
+      "displayName": "BYPASS VALVE OPEN",
+      "constraints": []
+    },
+    {
+      "name": "TUB_PADDLE_RPM",
+      "unitOfMeasure": "RPM",
+      "displayName": "TUB PADDLE RPM",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "J1939_DISCHARGE_TRANS_OIL_PRES",
+      "unitOfMeasure": "PSI",
+      "displayName": "DISCHARGE TRANS OIL PRESSURE",
+      "constraints": []
+    },
+    {
+      "name": "J1939_DISCHARGE_TRANS_OIL_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "DISCHARGE TRANS OIL TEMP",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.CCC",
+      "unitOfMeasure": "mA",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH COIL CURRENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.BCC",
+      "unitOfMeasure": "mA",
+      "displayName": "DISCHARGE TRANS TWIN DISC BRAKE COIL CURRENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.CEISS",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH ENGAGEMENT STATUS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.CEISJ",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH ENGAGEMENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.CCOFD/I",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH COIL OPEN FAULT DISENGAGEMENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.LSCD",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC LOW SPEED CLUTCH DISENGAGEMENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.COW",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH OVERHEAT WARNING",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.BCFD/I",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC BRAKE COIL FAULT DISENGAGEMENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.PTOCMM",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC PTO COMMAND MESSAGE MISSING",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.CEAC",
+      "unitOfMeasure": "RAW",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH ENGAGEMENT ATTEMPT COUNT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.CESC",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DISCHARGE_TRANS.TDPA.CEAC",
+      "displayName": "DISCHARGE TRANS TWIN DISC CLUTCH ENGAGEMENT SUCCESS COUNT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPA.LIS",
+      "unitOfMeasure": "RPM",
+      "displayName": "DISCHARGE TRANS TWIN DISC LEARNED IDLE SPEED",
+      "scale": 4.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TDPB.BP",
+      "unitOfMeasure": "PSI",
+      "displayName": "DISCHARGE TRANS TWIN DISC BRAKE PRESSURE",
+      "scale": 2.3206,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.ETC1.PCS",
+      "unitOfMeasure": "%",
+      "displayName": "DISCHARGE TRANS CLUTCH SLIP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.ETC1.TISS",
+      "unitOfMeasure": "RPM",
+      "displayName": "DISCHARGE TRANS INPUT SHAFT SPEED",
+      "scale": 0.125,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_TRANS.TRF1.CP",
+      "unitOfMeasure": "PSI",
+      "displayName": "DISCHARGE TRANS CLUTCH PRESSURE",
+      "scale": 2.3206,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BOOL_DISCHARGE_CLUTCH_AIR_PRESS_OK",
+      "unitOfMeasure": "BOOL",
+      "displayName": "DISCHARGE CLUTCH AIR PRESSURE GOOD",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_DISCHARGE_CLUTCH_SWITCH",
+      "unitOfMeasure": "BOOL",
+      "displayName": "DISCHARGE CLUTCH SWITCH POSITION",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_DISCHARGE_CLUTCH_POSITION_FEEDBACK",
+      "unitOfMeasure": "BOOL",
+      "ipcId": "IDENTITY",
+      "sampleKey": "DISCHARGE_CLUTCH_POSITION",
+      "displayName": "DISCHARGE CLUTCH POSITION FEEDBACK",
+      "source": "BOOL_DISCHARGE_CLUTCH_POSITION_FEEDBACK",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "CLUTCH_HYD_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "HYDRAULIC CLUTCH TEMP",
+      "constraints": []
+    },
+    {
+      "name": "CLUTCH_DISCH_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "DISCHARGE CLUTCH TEMP",
+      "constraints": []
+    },
+    {
+      "name": "J1939_HYDRAULIC_ENG_AIR_COOLER_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "HYDRAULIC AIR COOLANT TEMP",
+      "constraints": []
+    },
+    {
+      "name": "J1939_DISCHARGE_ENG_AIR_COOLER_TEMP",
+      "unitOfMeasure": "F",
+      "displayName": "DISCHARGE ENGINE AIR COOLANT TEMP",
+      "constraints": []
+    },
+    {
+      "name": "FREQ_AUGER_SPEED_01_A_RATE",
+      "unitOfMeasure": "RPM",
+      "ipcId": "FREQ_AUGER_SPEED_01_A_CONFIG",
+      "sampleKey": "RPM_AUGER_01",
+      "displayName": "AUGER 1 RPM",
+      "source": "FREQ_AUGER_SPEED_01_A",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FREQ_AUGER_SPEED_02_A_RATE",
+      "unitOfMeasure": "RPM",
+      "ipcId": "FREQ_AUGER_SPEED_02_A_CONFIG",
+      "sampleKey": "RPM_AUGER_02",
+      "displayName": "AUGER 2 RPM",
+      "source": "FREQ_AUGER_SPEED_02_A",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FREQ_AUGER_SPEED_03_A_RATE",
+      "unitOfMeasure": "RPM",
+      "ipcId": "FREQ_AUGER_SPEED_03_A_CONFIG",
+      "sampleKey": "RPM_AUGER_03",
+      "displayName": "AUGER 3 RPM",
+      "source": "FREQ_AUGER_SPEED_03_A",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_AUGER_01_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "RPM_AUGER_01",
+      "displayName": "RPM AUGER 1",
+      "constraints": []
+    },
+    {
+      "name": "RPM_AUGER_02_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "RPM_AUGER_02",
+      "displayName": "RPM AUGER 2",
+      "constraints": []
+    },
+    {
+      "name": "RPM_AUGER_03_RAW",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "RPM_AUGER_03",
+      "displayName": "RPM AUGER 3",
+      "constraints": []
+    },
+    {
+      "name": "ASSOCIATED_BOOST_PUMP_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "ASSOCIATED BOOST PUMP STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_FUEL_PRESSURE_DIRECT",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "DISCHARGE_ENG.EFL/P1.EFDP",
+      "displayName": "ENGINE FUEL PRESSURE DIRECT",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_MAIN_AUGER",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "SELECTED_CLEAN_RATE_MAIN_AUGER",
+      "displayName": "SELECTED AUGER CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SW_STOP_SAND",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_STOP_SAND",
+      "displayName": "STOP SAND",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_DISCHARGE_RATE.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "BLENDER SELECTED DISCHARGE RATE SELECTION",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_DISCHARGE_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "displayName": "BLENDER SELECTED DISCHARGE RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_MAIN_AUGER.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_MAIN_AUGER.CURRENT_SELECTION",
+      "displayName": "SELECTED CLEAN RATE MAIN AUGER CURRENT SELECTION",
+      "constraints": []
+    },
+    {
+      "name": "SW_DISCHARGE_CLUTCH_SWITCH",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_DISCHARGE_CLUTCH_SWITCH",
+      "displayName": "SOFTWARE CLUTCH SWITCH",
+      "constraints": []
+    },
+    {
+      "name": "SW_DISCHARGE_THROTTLE_PERCENT",
+      "unitOfMeasure": "%",
+      "displayName": "SOFTWARE DISCHARGE THROTTLE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "INTERNAL_DISCHARGE_THROTTLE_INPUT_PERCENT",
+      "unitOfMeasure": "%",
+      "displayName": "SW MODE DISCHARGE THROTTLE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SW_IN_REMOTE_CONTROL",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_IN_REMOTE_CONTROL",
+      "displayName": "IN REMOTE CONTROL MODE",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_PUMP.SET_POINT",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "BLENDER_TUB.DISCHARGE_PUMP.SET_POINT",
+      "displayName": "DISCHARGE PUMP SETPOINT",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_PRESSURE",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_DISCHARGE_CONFIG",
+      "displayName": "DISCHARGE PRESSURE",
+      "source": "PRES_DISCHARGE",
+      "constraints": []
+    },
+    {
+      "name": "TUB_MIXER.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_TUB_MIXER_SPEED_PERCENT",
+      "displayName": "TUB MIXER SW REQUESTED SPEED PERCENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "TUB_MIXER.DIRECTION_CW_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_TUB_MIXER_DIRECTION_CW",
+      "displayName": "TUB MIXER SW DIRECTION REQUEST CW",
+      "constraints": []
+    },
+    {
+      "name": "TUB_MIXER.DIRECTION_CCW_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_TUB_MIXER_DIRECTION_CCW",
+      "displayName": "TUB MIXER SW DIRECTION REQUEST CCW",
+      "constraints": []
+    },
+    {
+      "name": "TUB_INLET_VALVE.POSITION_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_INLET_VALVE_POSITION",
+      "displayName": "TUB INLET VALVE MANUAL POSITION",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "SW_DISCHARGE_VALVE_OPEN",
+      "unitOfMeasure": "BOOL",
+      "displayName": "DISCHARGE VALVE TOGGLE",
+      "constraints": []
+    },
+    {
+      "name": "SW_BYPASS_VALVE_OPEN",
+      "unitOfMeasure": "BOOL",
+      "displayName": "BYPASS VALVE SW TOGGLE",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_SUCTION_SPEED_PERCENT",
+      "displayName": "SUCTION SPEED PRECENT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "AUGER_01.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_OFF_AUGER01",
+      "displayName": "AUGER 1 OFF",
+      "constraints": []
+    },
+    {
+      "name": "AUGER_02.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_OFF_AUGER02",
+      "displayName": "AUGER 2 OFF",
+      "constraints": []
+    },
+    {
+      "name": "AUGER_03.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_OFF_AUGER03",
+      "displayName": "AUGER 3 OFF",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_AUGER01_SPEED_PERCENT",
+      "displayName": "AUGER 1 SPEED PERCENT SP",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_AUGER02_SPEED_PERCENT",
+      "displayName": "AUGER 2 SPEED PERCENT SP",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_AUGER03_SPEED_PERCENT",
+      "displayName": "AUGER 3 SPEED PERCENT SP",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_01.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_AUTO_AUGER01",
+      "displayName": "AUGER 1 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_02.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_AUTO_AUGER02",
+      "displayName": "AUGER 2 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "MAIN_AUGER_03.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_AUTO_AUGER03",
+      "displayName": "AUGER 3 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "SW_REQUEST_REMOTE_CONTROL",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_REQUEST_REMOTE_CONTROL",
+      "displayName": "REQUEST REMOTE CONTROL MODE",
+      "constraints": []
+    },
+    {
+      "name": "SW_RUN_IDLE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_RUN_IDLE",
+      "displayName": "RUN IDLE TOGGLE",
+      "constraints": []
+    },
+    {
+      "name": "CLUTCH_ENGAGED",
+      "unitOfMeasure": "BOOL",
+      "displayName": "CLUTCH ENGAGED",
+      "constraints": []
+    },
+    {
+      "name": "SW_DISCHARGE_PUMP_AUTO",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_DISCHARGE_PUMP_AUTO",
+      "displayName": "SOFTWARE DISCHARGE IN AUTO",
+      "constraints": []
+    },
+    {
+      "name": "INTERNAL_TUB_USER_TARGET",
+      "unitOfMeasure": "%",
+      "sampleKey": "INTERNAL_TUB_USER_TARGET",
+      "displayName": "INTERNAL TUB USER TARGET",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_SAND_RATE",
+      "unitOfMeasure": "LBS/MIN",
+      "displayName": "BLENDER SELECTED SAND RATE",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_SELECTED_SAND_RATE.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "BLENDER SELECTED SAND RATE CURRENT SELECTION",
+      "constraints": []
+    },
+    {
+      "name": "SAND_DELIVERY_FLOW_RATE",
+      "unitOfMeasure": "LBS/MIN",
+      "displayName": "SAND DELIVERY FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "SIMULATED_SAND_DELIVERY_FLOW_RATE",
+      "unitOfMeasure": "LBS/MIN",
+      "displayName": "SIMULATED SAND DELIVERY FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.ENABLED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.ENABLED",
+      "displayName": "BLENDER TUB DENSITY CALCULATION REMOTE MASS FLOW 01 ENABLED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.PPA_CORRECTION_FACTOR",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.PPA_CORRECTION_FACTOR",
+      "displayName": "BLENDER TUB DENSITY CALCULATION REMOTE MASS FLOW 01 PPA CORRECTION FACTOR",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.STAGE_TOTAL",
+      "displayName": "BLENDER TUB DENSITY CALCULATION REMOTE MASS FLOW 01 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "BLENDER_TUB.DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.STEP_TOTAL",
+      "displayName": "BLENDER TUB DENSITY CALCULATION REMOTE MASS FLOW 01 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.CALCULATED_PPA_DENSITY",
+      "unitOfMeasure": "LBS/GAL",
+      "displayName": "DENSITY CALCULATION REMOTE MASS FLOW 01 CALCULATED PPA DENSITY",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.CALCULATED_PPA_FLOW_RATE",
+      "unitOfMeasure": "LBS/MIN",
+      "displayName": "DENSITY CALCULATION REMOTE MASS FLOW 01 CALCULATED PPA FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "displayName": "DENSITY CALCULATION REMOTE MASS FLOW 01 STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_REMOTE_MASS_FLOW_01.STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "displayName": "DENSITY CALCULATION REMOTE MASS FLOW 01 STAGE TOTAL",
+      "constraints": []
+    }
+  ],
+  "fileVersion": 1
+}

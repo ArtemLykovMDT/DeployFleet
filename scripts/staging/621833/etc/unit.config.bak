@@ -1,0 +1,100 @@
+{
+   "RegistrationName": "621833",
+   "RegistrationDescription": "621833",
+   "SerialNumber": "FPC1972",
+   "PumpModel": "?",
+   "RegistrationGuid": "4eae83d6-1dd2-11b2-af6a-001d4832e846",
+   "EngineModel": "CAT 3512C",
+   "TransModel": "CAT CX48",
+   "DataVanHMIIp": "10.10.11.207",
+   "LocalHMIIp": "10.10.177.184",
+   "RpcIp": "FPC 4.5 and below. 192.168.0.92",
+   "HardwareRev": "Rev B",
+   "powertrains": {
+      "PWM_FAN_CONTROL": {
+         "enabled": true,
+         "invertedRange": false,
+         "constantOn": true,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "VOLTAGE_FAN_CONTROL": {
+         "enabled": false,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 201.0,
+         "lowTemperature": 130.0
+      },
+      "PUMP1": {
+         "cylinders": 5,
+         "bore": 4.0,
+         "stroke": 8.0,
+         "gearRatio": 6.3530001640319824,
+         "efficiency": 0.93999999761581421
+      },
+      "PUMPLUBE1": {
+         "rotationsPerLubeCycleOff": 60,
+         "cycleDuration": 15000,
+         "proximityCountsPerCycle": 0
+      }
+   },
+   "configs": {
+      "FLOW_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 6.0,
+         "scalingFactor": 1.0,
+         "sensMax": 160.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_SUCTION_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 300.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_DISCHARGE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 15000.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 233.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 233.0
+      },
+      "PRES_TRANSLUBE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 750.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 750.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "TEMP_PWRENDLUBE_01_CONFIG": {
+         "sensMin": -40.0,
+         "scalingFactor": 1.0,
+         "sensMax": 400.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 750.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 750.0
+      }
+   },
+   "MPCSecondaryIp": "10.10.16.207"
+}

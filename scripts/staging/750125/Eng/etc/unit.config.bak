@@ -1,0 +1,177 @@
+{
+   "RegistrationName": "750125",
+   "RegistrationDescription": "",
+   "RegistrationGuid": "64fd6616-8ede-45ab-a7d4-ccc81217fd9d",
+   "EngineModel": "Blender Engine (Default)",
+   "TransModel": "Twin Disc",
+   "DataVanHMIIp": "10.10.12.217",
+   "U10Ip": "10.10.137.4",
+   "LocalHMIIp": "10.10.17.229",
+   "RegistrationName_U10": "750125",
+   "configs": {
+      "POS_TUB_INLET_VALVE_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 100.0,
+         "sigMin": 115000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 1238000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_SUCTION_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 150.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_DISCHARGE_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 300.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_OPEN_LOOP_HYDRAULIC_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 5000.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 469.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 469.0
+      },
+      "DENSITOMETER_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 25.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 8000.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 8000.0
+      }
+   },
+   "blender": {
+      "TUB_MIXER": {
+         "minControlOutput": 5900,
+         "maxControlOutput": 3000,
+         "minReverseControlOutput": 6100,
+         "maxReverseControlOutput": 9000,
+         "controlZeroValue": 6000
+      },
+      "MAIN_AUGER_02": {
+         "deliveryRate": 2.9519131183624268,
+         "efficiency": 0.75,
+         "minRpm": 5,
+         "maxRpm": 410,
+         "minControlOutput": 4000,
+         "maxControlOutput": 18000
+      },
+      "MAIN_AUGER_03": {
+         "deliveryRate": 2.9519131183624268,
+         "efficiency": 0.75,
+         "minRpm": 5,
+         "maxRpm": 410,
+         "minControlOutput": 4000,
+         "maxControlOutput": 18000
+      },
+      "DENSITY_CALCULATION_REMOTE_MASS_FLOW_01": {
+         "isDefault": false
+      },
+      "DENSITY_CALCULATION_DENSITOMETER_01": {
+         "isDefault": false
+      },
+      "DENSITY_CALCULATION_AUGER_FLOW_MAIN_AUGERS": {
+         "isDefault": true
+      },
+      "MAIN_AUGER_01": {
+         "deliveryRate": 2.9519131183624268,
+         "efficiency": 0.99000000953674316,
+         "minRpm": 5,
+         "maxRpm": 410,
+         "minControlOutput": 4000,
+         "maxControlOutput": 20000
+      }
+   },
+   "controlOutputMaps": {
+      "REQUIRED_SUCTION_RATE_INLET_VALVE_MAP": {
+         "controlOutputMappings": [
+            {
+               "input": 0.0,
+               "output": 0.0
+            },
+            {
+               "input": 420.0,
+               "output": 10.0
+            },
+            {
+               "input": 840.0,
+               "output": 20.0
+            },
+            {
+               "input": 1260.0,
+               "output": 30.0
+            },
+            {
+               "input": 1680.0,
+               "output": 40.0
+            },
+            {
+               "input": 2100.0,
+               "output": 50.0
+            },
+            {
+               "input": 2520.0,
+               "output": 60.0
+            },
+            {
+               "input": 2940.0,
+               "output": 70.0
+            },
+            {
+               "input": 3360.0,
+               "output": 85.0
+            },
+            {
+               "input": 3780.0,
+               "output": 100.0
+            },
+            {
+               "input": 4200.0,
+               "output": 100.0
+            },
+            {
+               "input": 4620.0,
+               "output": 100.0
+            }
+         ]
+      }
+   },
+   "pidParameters": {
+      "INLET_VALVE_CONTROL": {
+         "pidParams": {
+            "kp": 0.012000001966953278,
+            "ki": 8.6000000010244548e-6,
+            "kd": 0.0
+         }
+      },
+      "TUB_LEVEL_CONTROL": {
+         "pidParams": {
+            "kp": 0.89999997615814209,
+            "ki": 7.9999997979030013e-5,
+            "kd": 0.0
+         }
+      },
+      "DISCHARGE_PUMP_PID": {
+         "pidParams": {
+            "kp": 0.039999999105930328,
+            "ki": 0.00013800000306218863,
+            "kd": 0.00030000004335306585
+         }
+      }
+   }
+}

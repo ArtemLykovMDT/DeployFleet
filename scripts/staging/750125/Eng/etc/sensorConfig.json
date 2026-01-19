@@ -1,0 +1,283 @@
+{
+  "configs": [
+    {
+      "unitOfMeasure": "(PPG)",
+      "description": "DENSITOMETER_01",
+      "ipcId": "DENSITOMETER_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 30.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "FLOW DISCHARGE MAG 1",
+      "ipcId": "FLOW_DISCHARGE_MAG_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 16.600000381469727
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "DISCHARGE TURB",
+      "ipcId": "FLOW_DISCHARGE_TURB_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 46.195999145507812
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "FLOW SUCTION MAG 1 RATE",
+      "ipcId": "FLOW_SUCTION_MAG_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 16.600000381469727
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "SUCTION TURB",
+      "ipcId": "FLOW_SUCTION_TURB_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 34.389724731445312
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "AUGER 1 SPEED",
+      "ipcId": "FREQ_AUGER_SPEED_01_A_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 5000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "AUGER 2 SPEED",
+      "ipcId": "FREQ_AUGER_SPEED_02_A_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 5000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "AUGER 3 SPEED",
+      "ipcId": "FREQ_AUGER_SPEED_03_A_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 5000.0
+    },
+    {
+      "unitOfMeasure": "(I)",
+      "description": "IDENTITY",
+      "ipcId": "IDENTITY",
+      "scalingFactor": 1.0,
+      "kfactor": 1.0
+    },
+    {
+      "unitOfMeasure": "%",
+      "description": "TUB LEVEL",
+      "ipcId": "LVL_TUB_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 100.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(%)",
+      "description": "TUB_BYPASS_VALVE_POSITION",
+      "ipcId": "POS_TUB_BYPASS_VALVE_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 1.0,
+      "sigMin": 300000.0,
+      "sigMax": 1280000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(%)",
+      "description": "TUB_DISCHARGE_VALVE_POSITION",
+      "ipcId": "POS_TUB_DISCHARGE_VALVE_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 1.0,
+      "sigMin": 300000.0,
+      "sigMax": 1280000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "%",
+      "description": "POS_TUB_INLET_VALVE_ANALOG",
+      "ipcId": "POS_TUB_INLET_VALVE_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 100.0,
+      "sigMin": 280000.0,
+      "sigMax": 1280000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(%)",
+      "description": "TUB_INLET_VALVE_POSITION_INV",
+      "ipcId": "POS_TUB_INLET_VALVE_CONFIG_INV",
+      "scalingFactor": 1.0,
+      "sensMin": 100.0,
+      "sensMax": 0.0,
+      "sigMin": 1270000.0,
+      "sigMax": 308000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_AUGER_HYDRAULICS_01",
+      "ipcId": "PRES_AUGER_HYDRAULICS_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_AUGER_HYDRAULICS_02",
+      "ipcId": "PRES_AUGER_HYDRAULICS_02_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_AUGER_HYDRAULICS_03",
+      "ipcId": "PRES_AUGER_HYDRAULICS_03_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "DISCHARGE_PRESSURE",
+      "ipcId": "PRES_DISCHARGE_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 150.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_OPEN_LOOP_HYDRAULIC",
+      "ipcId": "PRES_OPEN_LOOP_HYDRAULIC_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "PSI",
+      "description": "SUCTION_PRESSURE",
+      "ipcId": "PRES_SUCTION_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": -14.0,
+      "sensMax": 61.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_SUCTION_HYDRAULIC",
+      "ipcId": "PRES_SUCTION_HYDRAULIC_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "SUPPLY_PRESSURE",
+      "ipcId": "PRES_SUPPLY_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": -15.0,
+      "sensMax": 15.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_TUB_PADDLE_HYDRAULIC",
+      "ipcId": "PRES_TUB_PADDLE_HYDRAULIC_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(F)",
+      "description": "TEMP_HYDRAULIC_FLUID",
+      "ipcId": "TEMP_HYDRAULIC_FLUID_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": -40.0,
+      "sensMax": 400.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_OPEN_LOOP_HYDRAULIC_02",
+      "ipcId": "PRES_OPEN_LOOP_HYDRAULIC_02_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PRES_OPEN_LOOP_HYDRAULIC_03",
+      "ipcId": "PRES_OPEN_LOOP_HYDRAULIC_03_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "TUB PADDLE RPM",
+      "ipcId": "TUB_RPM_PADDLE_ENCODER_A_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,2331 @@
+{
+  "sensors": [
+    {
+      "name": "FLOW_LA_PUMP_01_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_01_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_01",
+      "displayName": "LA 1 FLOW RATE",
+      "source": "FREQ_LA_PUMP_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_02_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_02_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_02",
+      "displayName": "LA 2 FLOW RATE",
+      "source": "FREQ_LA_PUMP_02",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_03_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_03_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_03",
+      "displayName": "LA 3 FLOW RATE",
+      "source": "FREQ_LA_PUMP_03",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_04_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_04_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_04",
+      "displayName": "LA 4 FLOW RATE",
+      "source": "FREQ_LA_PUMP_04",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_01",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_01_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_01",
+      "displayName": "LA 1 RPM",
+      "source": "RPM_LA_PUMP_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_02",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_02_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_02",
+      "displayName": "LA 2 RPM",
+      "source": "RPM_LA_PUMP_02",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_03",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_03_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_03",
+      "displayName": "LA 3 RPM",
+      "source": "RPM_LA_PUMP_03",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_04",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_04_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_04",
+      "displayName": "LA 4 RPM",
+      "source": "RPM_LA_PUMP_04",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_01_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_01_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_01",
+      "displayName": "LA 1 RPM RATE",
+      "source": "RPM_LA_PUMP_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_02_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_02_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_02",
+      "displayName": "LA 2 RPM RATE",
+      "source": "RPM_LA_PUMP_02",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_03_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_03_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_03",
+      "displayName": "LA 3 RPM RATE",
+      "source": "RPM_LA_PUMP_03",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_04_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_04_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_04",
+      "displayName": "LA 4 RPM RATE",
+      "source": "RPM_LA_PUMP_04",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_01.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 1 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_02.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 2 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_03.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 3 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_04.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 4 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_01_STEP_TOTAL",
+      "displayName": "LA 1 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_02_STEP_TOTAL",
+      "displayName": "LA 2 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_03_STEP_TOTAL",
+      "displayName": "LA 3 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_04_STEP_TOTAL",
+      "displayName": "LA 4 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_01_STAGE_TOTAL",
+      "displayName": "LA 1 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_02_STAGE_TOTAL",
+      "displayName": "LA 2 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_03_STAGE_TOTAL",
+      "displayName": "LA 3 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_04_STAGE_TOTAL",
+      "displayName": "LA 4 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.CHEM_FLOW_RATE",
+      "displayName": "LA 1 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.CHEM_FLOW_RATE",
+      "displayName": "LA 2 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.CHEM_FLOW_RATE",
+      "displayName": "LA 3 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.CHEM_FLOW_RATE",
+      "displayName": "LA 4 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.CLEAN_FLOW_RATE",
+      "displayName": "LA 1 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.CLEAN_FLOW_RATE",
+      "displayName": "LA 2 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.CLEAN_FLOW_RATE",
+      "displayName": "LA 3 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.CLEAN_FLOW_RATE",
+      "displayName": "LA 4 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.CONCENTRATION_RATE",
+      "displayName": "LA 1 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.SET_POINT",
+      "displayName": "LA 1 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_01.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 1 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.AUTO_MODE_ACTIVE",
+      "displayName": "LA 1 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.STOP_MODE_ACTIVE",
+      "displayName": "LA 1 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.CONCENTRATION_RATE",
+      "displayName": "LA 2 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.SET_POINT",
+      "displayName": "LA 2 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_02.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 2 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.AUTO_MODE_ACTIVE",
+      "displayName": "LA 2 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.STOP_MODE_ACTIVE",
+      "displayName": "LA 2 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.CONCENTRATION_RATE",
+      "displayName": "LA 3 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.SET_POINT",
+      "displayName": "LA 3 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_03.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 3 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.AUTO_MODE_ACTIVE",
+      "displayName": "LA 3 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.STOP_MODE_ACTIVE",
+      "displayName": "LA 3 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.CONCENTRATION_RATE",
+      "displayName": "LA 4 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.SET_POINT",
+      "displayName": "LA 4 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_04.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 4 CONCENTRATION DIFFERENCE",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.AUTO_MODE_ACTIVE",
+      "displayName": "LA 4 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.STOP_MODE_ACTIVE",
+      "displayName": "LA 4 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.CURRENT_OPERATING_MODE",
+      "displayName": "LA 1 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.CURRENT_OPERATING_MODE",
+      "displayName": "LA 2 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.CURRENT_OPERATING_MODE",
+      "displayName": "LA 3 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.CURRENT_OPERATING_MODE",
+      "displayName": "LA 4 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.CURRENT_OPERATING_MODE",
+      "displayName": "DA 1 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.CURRENT_OPERATING_MODE",
+      "displayName": "DA 2 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 1 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 2 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 3 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 4 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.CONTROL_OUTPUT_PERCENT",
+      "displayName": "DA 1 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.CONTROL_OUTPUT_PERCENT",
+      "displayName": "DA 2 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_1_01_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_1_01",
+      "displayName": "LA 1 DISCHARGE",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_1_02_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_1_02",
+      "displayName": "LA 2 DISCHARGE",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_1_03_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_1_03",
+      "displayName": "LA 3 DISCHARGE",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_1_04_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_1_04",
+      "displayName": "LA 4 DISCHARGE",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_2_01_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_2_01",
+      "displayName": "LA 1 RECIRC",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_2_02_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_2_02",
+      "displayName": "LA 2 RECIRC",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_2_03_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_2_03",
+      "displayName": "LA 3 RECIRC",
+      "constraints": []
+    },
+    {
+      "name": "BOOL_LA_RECIRC_POS_2_04_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BOOL_LA_RECIRC_POS_2_04",
+      "displayName": "LA 4 RECIRC",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_01.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_01.REQUESTED_VALVE_STATE",
+      "displayName": "LA 1 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_02.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_02.REQUESTED_VALVE_STATE",
+      "displayName": "LA 2 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_03.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_03.REQUESTED_VALVE_STATE",
+      "displayName": "LA 3 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_04.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_04.REQUESTED_VALVE_STATE",
+      "displayName": "LA 4 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_05.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_05.REQUESTED_VALVE_STATE",
+      "displayName": "LA 5 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_06.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_06.REQUESTED_VALVE_STATE",
+      "displayName": "LA 6 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_07.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_07.REQUESTED_VALVE_STATE",
+      "displayName": "LA 7 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_RECIRC_VALVE_08.REQUESTED_VALVE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_RECIRC_VALVE_08.REQUESTED_VALVE_STATE",
+      "displayName": "LA 8 REQUESTED RECIRC STATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_01.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_01.ON_STAGE",
+      "displayName": "LA 1 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_02.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_02.ON_STAGE",
+      "displayName": "LA 2 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_03.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_03.ON_STAGE",
+      "displayName": "LA 3 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_04.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_04.ON_STAGE",
+      "displayName": "LA 4 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_01.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_01.CURRENT_SELECTION",
+      "displayName": "LA 1 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_02.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_02.CURRENT_SELECTION",
+      "displayName": "LA 2 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_03.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_03.CURRENT_SELECTION",
+      "displayName": "LA 3 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_04.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_04.CURRENT_SELECTION",
+      "displayName": "LA 4 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_DRY_ADD_01.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "DA 1 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_DRY_ADD_02.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "",
+      "displayName": "DA 2 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_01.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_01.AUTO_MODE_ACTIVE",
+      "displayName": "LA 1 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_02.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_02.AUTO_MODE_ACTIVE",
+      "displayName": "LA 2 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_03.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_03.AUTO_MODE_ACTIVE",
+      "displayName": "LA 3 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_04.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_04.AUTO_MODE_ACTIVE",
+      "displayName": "LA 4 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_05.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_05.AUTO_MODE_ACTIVE",
+      "displayName": "LA 5 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_06.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_06.AUTO_MODE_ACTIVE",
+      "displayName": "LA 6 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_07.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_07.AUTO_MODE_ACTIVE",
+      "displayName": "LA 7 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_08.AUTO_MODE_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_08.AUTO_MODE_ACTIVE",
+      "displayName": "LA 8 FILL AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_01.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_01.PUMP_ACTIVATED",
+      "displayName": "LA 1 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_02.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_02.PUMP_ACTIVATED",
+      "displayName": "LA 2 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_03.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_03.PUMP_ACTIVATED",
+      "displayName": "LA 3 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_04.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_04.PUMP_ACTIVATED",
+      "displayName": "LA 4 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_05.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_05.PUMP_ACTIVATED",
+      "displayName": "LA 5 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_06.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_06.PUMP_ACTIVATED",
+      "displayName": "LA 6 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_07.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_07.PUMP_ACTIVATED",
+      "displayName": "LA 7 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_FILL_PUMP_CTRL_08.PUMP_ACTIVATED",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_FILL_PUMP_CTRL_08.PUMP_ACTIVATED",
+      "displayName": "LA 8 FILL ACTIVATED",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_01.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_01.HIGH_LEVEL_ON",
+      "displayName": "LA 1 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_02.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_02.HIGH_LEVEL_ON",
+      "displayName": "LA 2 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_03.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_03.HIGH_LEVEL_ON",
+      "displayName": "LA 3 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_04.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_04.HIGH_LEVEL_ON",
+      "displayName": "LA 4 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_05.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_05.HIGH_LEVEL_ON",
+      "displayName": "LA 5 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_06.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_06.HIGH_LEVEL_ON",
+      "displayName": "LA 6 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_07.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_07.HIGH_LEVEL_ON",
+      "displayName": "LA 7 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_08.HIGH_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_08.HIGH_LEVEL_ON",
+      "displayName": "LA 8 TANK LEVEL HIGH",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_01.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_01.LOW_LEVEL_ON",
+      "displayName": "LA 1 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_02.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_02.LOW_LEVEL_ON",
+      "displayName": "LA 2 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_03.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_03.LOW_LEVEL_ON",
+      "displayName": "LA 3 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_04.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_04.LOW_LEVEL_ON",
+      "displayName": "LA 4 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_05.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_05.LOW_LEVEL_ON",
+      "displayName": "LA 5 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_06.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_06.LOW_LEVEL_ON",
+      "displayName": "LA 6 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_07.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_07.LOW_LEVEL_ON",
+      "displayName": "LA 7 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "LA_TANK_LEVEL_08.LOW_LEVEL_ON_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_TANK_LEVEL_08.LOW_LEVEL_ON",
+      "displayName": "LA 8 TANK LEVEL LOW",
+      "constraints": []
+    },
+    {
+      "name": "FREQ_DA_SPEED_01_A_RATE",
+      "unitOfMeasure": "RPM",
+      "ipcId": "FREQ_DA_SPEED_01_A_CONFIG",
+      "sampleKey": "RPM_DA_01",
+      "displayName": "DA 1 SPEED",
+      "source": "FREQ_DA_SPEED_01_A",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FREQ_DA_SPEED_02_A_RATE",
+      "unitOfMeasure": "RPM",
+      "ipcId": "FREQ_DA_SPEED_02_A_CONFIG",
+      "sampleKey": "RPM_DA_02",
+      "displayName": "DA 2 SPEED",
+      "source": "FREQ_DA_SPEED_02_A",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.EFFICIENCY_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.EFFICIENCY",
+      "displayName": "DA 1 EFFICIENCY",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.DELIVERY_RATE_RAW",
+      "unitOfMeasure": "GAL/REV",
+      "persistedUnitOfMeasure": "FT3/REV",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.DELIVERY_RATE",
+      "displayName": "DA 1 DELIVERY RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.CLEAN_FLOW_RATE",
+      "displayName": "DA 1 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.CONCENTRATION_RATE",
+      "displayName": "DA 1 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.SET_POINT_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.SET_POINT",
+      "displayName": "DA 1 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "DRY_ADD_01.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "DA 1 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.MASS_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.MASS_FLOW_RATE",
+      "displayName": "DA 1 MASS FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.VOLUMETRIC_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.VOLUMETRIC_FLOW_RATE",
+      "displayName": "DA 1 VOLUMETRIC FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.MASS_PER_REV_RAW",
+      "unitOfMeasure": "LBS/REV",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.MASS_PER_REV",
+      "displayName": "DA 1 MASS PER REV",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DRY_ADD_01.MASS_STEP_TOTAL",
+      "displayName": "DA 1 STEP TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DRY_ADD_01.MASS_STAGE_TOTAL",
+      "displayName": "DA 1 STAGE TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.ON_STAGE",
+      "displayName": "DA 1 ON STAGE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.AUTO_MODE_ACTIVE",
+      "displayName": "DA 1 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01.STOP_MODE_ACTIVE",
+      "displayName": "DA 1 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.ABSOLUTE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "SG",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01_SOURCE.ABSOLUTE_DENSITY",
+      "displayName": "DA 1 ABSOLUTE DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.BULK_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/FT3",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_01_SOURCE.BULK_DENSITY",
+      "displayName": "DA 1 BULK DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.EFFICIENCY_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.EFFICIENCY",
+      "displayName": "DA 2 EFFICIENCY",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.DELIVERY_RATE_RAW",
+      "unitOfMeasure": "GAL/REV",
+      "persistedUnitOfMeasure": "FT3/REV",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.DELIVERY_RATE",
+      "displayName": "DA 2 DELIVERY RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.CLEAN_FLOW_RATE",
+      "displayName": "DA 2 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.CONCENTRATION_RATE",
+      "displayName": "DA 2 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.SET_POINT_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.SET_POINT",
+      "displayName": "DA 2 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "DRY_ADD_02.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "DA 2 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.MASS_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.MASS_FLOW_RATE",
+      "displayName": "DA 2 MASS FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.VOLUMETRIC_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.VOLUMETRIC_FLOW_RATE",
+      "displayName": "DA 2 VOLUMETRIC FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.MASS_PER_REV_RAW",
+      "unitOfMeasure": "LBS/REV",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.MASS_PER_REV",
+      "displayName": "DA 2 MASS PER REV",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DRY_ADD_02.MASS_STEP_TOTAL",
+      "displayName": "DA 2 STEP TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DRY_ADD_02.MASS_STAGE_TOTAL",
+      "displayName": "DA 2 STAGE TOTAL",
+      "source": "",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.ON_STAGE",
+      "displayName": "DA 2 ON STAGE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.AUTO_MODE_ACTIVE",
+      "displayName": "DA 2 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02.STOP_MODE_ACTIVE",
+      "displayName": "DA 2 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.BULK_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/FT3",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02_SOURCE.BULK_DENSITY",
+      "displayName": "DA 2 BULK DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.ABSOLUTE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "SG",
+      "sampleKey": "BLENDER_ADDITIVES.DRY_ADD_02_SOURCE.ABSOLUTE_DENSITY",
+      "displayName": "DA 2 ABSOLUTE DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "ADDS.MAINBOARD_BOARD_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "sampleKey": "MAINBOARD_BOARD_TEMPERATURE",
+      "displayName": "MAINBOARD TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ADDS.MAINBOARD_CPU_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "sampleKey": "MAINBOARD_CPU_TEMPERATURE",
+      "displayName": "MAINBOARD CPU TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ADDS.EB07_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "sampleKey": "EB07_TEMPERATURE",
+      "displayName": "EB07 TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ADDS.EB07_STATUS",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "EB07_STATUS",
+      "displayName": "EB07 STATUS",
+      "constraints": []
+    },
+    {
+      "name": "ADDS.BLENDER_SIMULATED_DISCHARGE_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "sampleKey": "BLENDER_SIMULATED_DISCHARGE_RATE",
+      "displayName": "BLENDER SIMULATED DISCHARGE RATE",
+      "constraints": []
+    },
+    {
+      "name": "ADDS.CONTROLLER_IGNITION_INPUT",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "CONTROLLER_IGNITION_INPUT",
+      "displayName": "CONTROLLER IGNITION INPUT",
+      "constraints": []
+    },
+    {
+      "name": "ADDS.CONTROLLER_RTOS_SHUTDOWN",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "CONTROLLER_RTOS_SHUTDOWN",
+      "displayName": "CONTROLLER RTOS SHUTDOWN",
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_05_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_05_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_05",
+      "displayName": "LA 5 FLOW RATE",
+      "source": "FREQ_LA_PUMP_05",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_06_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_06_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_06",
+      "displayName": "LA 6 FLOW RATE",
+      "source": "FREQ_LA_PUMP_06",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_07_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_07_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_07",
+      "displayName": "LA 7 FLOW RATE",
+      "source": "FREQ_LA_PUMP_07",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_08_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FREQ_LA_PUMP_08_CONFIG",
+      "sampleKey": "CALC_FLOW_LA_PUMP_08",
+      "displayName": "LA 8 FLOW RATE",
+      "source": "FREQ_LA_PUMP_08",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_05",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_05_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_05",
+      "displayName": "LA 5 RPM",
+      "source": "RPM_LA_PUMP_05",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_06",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_06_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_06",
+      "displayName": "LA 6 RPM",
+      "source": "RPM_LA_PUMP_06",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_07",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_07_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_07",
+      "displayName": "LA 7 RPM",
+      "source": "RPM_LA_PUMP_07",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "RPM_LA_PUMP_08",
+      "unitOfMeasure": "RPM",
+      "ipcId": "RPM_LA_PUMP_08_CONFIG",
+      "sampleKey": "CALC_RPM_LA_PUMP_08",
+      "displayName": "LA 8 RPM",
+      "source": "RPM_LA_PUMP_08",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_05_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_05_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_05",
+      "displayName": "LA 5 RPM RATE",
+      "source": "RPM_LA_PUMP_05",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_06_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_06_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_06",
+      "displayName": "LA 6 RPM RATE",
+      "source": "RPM_LA_PUMP_06",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_07_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_07_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_07",
+      "displayName": "LA 7 RPM RATE",
+      "source": "RPM_LA_PUMP_07",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_LA_PUMP_08_RPM_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_RPM_LA_PUMP_08_CONFIG",
+      "sampleKey": "CALC_RPM_FLOW_LA_PUMP_08",
+      "displayName": "LA 8 RPM RATE",
+      "source": "RPM_LA_PUMP_08",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_05.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 5 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_06.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 6 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_07.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 7 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "PSEUDO_CALC_FLOW_LA_PUMP_08.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "LA 8 SELECTED FLOW RATE INDEX",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_05_STEP_TOTAL",
+      "displayName": "LA 5 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_06_STEP_TOTAL",
+      "displayName": "LA 6 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_07_STEP_TOTAL",
+      "displayName": "LA 7 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_08_STEP_TOTAL",
+      "displayName": "LA 8 STEP TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_05_STAGE_TOTAL",
+      "displayName": "LA 5 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_06_STAGE_TOTAL",
+      "displayName": "LA 6 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_07_STAGE_TOTAL",
+      "displayName": "LA 7 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "sampleKey": "LA_PUMP_08_STAGE_TOTAL",
+      "displayName": "LA 8 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.CHEM_FLOW_RATE",
+      "displayName": "LA 5 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.CHEM_FLOW_RATE",
+      "displayName": "LA 6 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.CHEM_FLOW_RATE",
+      "displayName": "LA 7 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.CHEM_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.CHEM_FLOW_RATE",
+      "displayName": "LA 8 CHEM FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.CLEAN_FLOW_RATE",
+      "displayName": "LA 5 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.CLEAN_FLOW_RATE",
+      "displayName": "LA 6 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.CLEAN_FLOW_RATE",
+      "displayName": "LA 7 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.CLEAN_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.CLEAN_FLOW_RATE",
+      "displayName": "LA 8 CLEAN FLOW RATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.CONCENTRATION_RATE",
+      "displayName": "LA 5 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.SET_POINT",
+      "displayName": "LA 5 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_05.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 5 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.AUTO_MODE_ACTIVE",
+      "displayName": "LA 5 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.STOP_MODE_ACTIVE",
+      "displayName": "LA 5 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.CONCENTRATION_RATE",
+      "displayName": "LA 6 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.SET_POINT",
+      "displayName": "LA 6 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_06.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 6 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.AUTO_MODE_ACTIVE",
+      "displayName": "LA 6 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.STOP_MODE_ACTIVE",
+      "displayName": "LA 6 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.CONCENTRATION_RATE",
+      "displayName": "LA 7 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.SET_POINT",
+      "displayName": "LA 7 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_07.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 7 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.AUTO_MODE_ACTIVE",
+      "displayName": "LA 7 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.STOP_MODE_ACTIVE",
+      "displayName": "LA 7 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.CONCENTRATION_RATE_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.CONCENTRATION_RATE",
+      "displayName": "LA 8 CONCENTRATION",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.SET_POINT_RAW",
+      "unitOfMeasure": "GAL/GAL",
+      "persistedUnitOfMeasure": "GAL/MGAL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.SET_POINT",
+      "displayName": "LA 8 SETPOINT",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.CONCENTRATION_RATE_DELTA_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "LA_PUMP_08.CONCENTRATION_RATE_DELTA_PERCENT",
+      "displayName": "LA 8 CONCENTRATION DIFF",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.AUTO_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.AUTO_MODE_ACTIVE",
+      "displayName": "LA 8 AUTO MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.STOP_MODE_ACTIVE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.STOP_MODE_ACTIVE",
+      "displayName": "LA 8 STOP MODE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.CURRENT_OPERATING_MODE",
+      "displayName": "LA 5 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.CURRENT_OPERATING_MODE",
+      "displayName": "LA 6 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.CURRENT_OPERATING_MODE",
+      "displayName": "LA 7 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.CURRENT_OPERATING_MODE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.CURRENT_OPERATING_MODE",
+      "displayName": "LA 8 CURRENT OPERATING MODE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 5 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA6 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 7 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.CONTROL_OUTPUT_PERCENT_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.CONTROL_OUTPUT_PERCENT",
+      "displayName": "LA 8 CONTROL OUTPUT",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_05.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_05.ON_STAGE",
+      "displayName": "LA 5 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_06.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_06.ON_STAGE",
+      "displayName": "LA 6 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_07.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_07.ON_STAGE",
+      "displayName": "LA 7 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "LA_PUMP_08.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "BLENDER_ADDITIVES.LA_PUMP_08.ON_STAGE",
+      "displayName": "LA 8 ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_05.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_05.CURRENT_SELECTION",
+      "displayName": "LA 5 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_06.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_06.CURRENT_SELECTION",
+      "displayName": "LA 6 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_07.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_07.CURRENT_SELECTION",
+      "displayName": "LA 7 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_LA_PUMP_08.CURRENT_SELECTION_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "SELECTED_CLEAN_RATE_LA_PUMP_08.CURRENT_SELECTION",
+      "displayName": "LA 8 SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "ACID_MAG_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_ACID_MAG_01_CONFIG",
+      "sampleKey": "",
+      "displayName": "ACID MAG RATE",
+      "source": "FLOW_ACID_MAG_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_DISCHARGE_CLUTCHLUBE_ANALOG",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "PRES_DISCHARGE_CLUTCHLUBE",
+      "displayName": "DISCHARGE CLUTCH LUBE PRESSURE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_DRY_ADD_01",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "displayName": "SELECTED CLEAN RATE DRY ADD 01",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE_DRY_ADD_02",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "MGPM",
+      "displayName": "SELECTED CLEAN RATE DRY ADD 02",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_DA01_SPEED_PERCENT",
+      "displayName": "DA 1 SPEED PERCENT SP",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_DA02_SPEED_PERCENT",
+      "displayName": "DA 2 SPEED PERCENT SP",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_DA01_OFF",
+      "displayName": "DA 1 OFF",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_DA02_OFF",
+      "displayName": "DA 2 OFF",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_DA01_AUTO",
+      "displayName": "DA 1 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_02.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_DA02_AUTO",
+      "displayName": "DA 2 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_01.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA01_AUTO",
+      "displayName": "LA 1 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_01.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA01_OFF",
+      "displayName": "LA 1 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_02.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA02_AUTO",
+      "displayName": "LA 2 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_02.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA02_OFF",
+      "displayName": "LA 2 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_03.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA03_AUTO",
+      "displayName": "LA 3 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_03.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA03_OFF",
+      "displayName": "LA 3 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_04.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA04_AUTO",
+      "displayName": "LA 4 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_04.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA04_OFF",
+      "displayName": "LA 4 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_05.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA05_AUTO",
+      "displayName": "LA 5 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_05.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA05_OFF",
+      "displayName": "LA 5 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_06.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA06_AUTO",
+      "displayName": "LA 6 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_06.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA06_OFF",
+      "displayName": "LA 6 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_07.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA07_AUTO",
+      "displayName": "LA 7 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_07.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA07_OFF",
+      "displayName": "LA 7 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_08.AUTO_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA08_AUTO",
+      "displayName": "LA 8 AUTO",
+      "constraints": []
+    },
+    {
+      "name": "LA_08.OFF_SP",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "SW_LA08_OFF",
+      "displayName": "LA 8 OFF",
+      "constraints": []
+    },
+    {
+      "name": "LA_01.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA01_SPEED_PERCENT",
+      "displayName": "LA 1 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_02.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA02_SPEED_PERCENT",
+      "displayName": "LA 2 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_03.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA03_SPEED_PERCENT",
+      "displayName": "LA 3 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_04.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA04_SPEED_PERCENT",
+      "displayName": "LA 4 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_05.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA05_SPEED_PERCENT",
+      "displayName": "LA 5 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_06.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA06_SPEED_PERCENT",
+      "displayName": "LA 6 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_07.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA07_SPEED_PERCENT",
+      "displayName": "LA 7 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "LA_08.SPEED_PERCENT_SP",
+      "unitOfMeasure": "%",
+      "sampleKey": "SW_LA08_SPEED_PERCENT",
+      "displayName": "LA 8 SPEED PERCENT",
+      "constraints": []
+    },
+    {
+      "name": "DRY_ADD_01.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "DRY_ADD_01.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DRY_ADD_02.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "DRY_ADD_02.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_01.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_01.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_02.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_02.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_03.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_03.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_04.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_04.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_05.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_05.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_06.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_06.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_07.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_07.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "LA_PUMP_08.SPEED_PERCENT_INTERNAL",
+      "unitOfMeasure": "%",
+      "displayName": "LA_PUMP_08.SPEED_PERCENT_INTERNAL",
+      "constraints": [],
+      "persist": false
+    }
+  ],
+  "fileVersion": 1
+}

@@ -1,0 +1,1345 @@
+{
+  "sensors": [
+    {
+      "name": "PRES_CABLEREEL_15",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_15_CONFIG",
+      "sampleKey": "PRESSURE_15_CALCULATED",
+      "displayName": "PRESSURE_15",
+      "source": "PRESSURE_15",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_16",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_16_CONFIG",
+      "sampleKey": "PRESSURE_16_CALCULATED",
+      "displayName": "PRESSURE_16",
+      "source": "PRESSURE_16",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_17",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_17_CONFIG",
+      "sampleKey": "PRESSURE_17_CALCULATED",
+      "displayName": "PRESSURE_17",
+      "source": "PRESSURE_17",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_18",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_18_CONFIG",
+      "sampleKey": "PRESSURE_18_CALCULATED",
+      "displayName": "PRESSURE_18",
+      "source": "PRESSURE_18",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_19",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_19_CONFIG",
+      "sampleKey": "PRESSURE_19_CALCULATED",
+      "displayName": "PRESSURE_19",
+      "source": "PRESSURE_19",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_20",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_20_CONFIG",
+      "sampleKey": "PRESSURE_20_CALCULATED",
+      "displayName": "PRESSURE_20",
+      "source": "PRESSURE_20",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_03",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_CNTRINPT_03_CONFIG",
+      "sampleKey": "FLOW_CNTRINPT_03_RATE",
+      "displayName": "RATE 03",
+      "source": "FLOW_CNTRINPT_03",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_03_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "FLOW_CNTRINPT_03_STAGE_TOTAL",
+      "displayName": "RATE 03 STAGE TOTAL",
+      "associatedComponent": "FLOW_CNTRINPT_03_RESETTER",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_03_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "FLOW_CNTRINPT_03_STEP_TOTAL",
+      "displayName": "RATE 03 STEP TOTAL",
+      "associatedComponent": "FLOW_CNTRINPT_03_RESETTER",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_01",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_01_CONFIG",
+      "sampleKey": "PRESSURE_01_CALCULATED",
+      "displayName": "PRESSURE_01",
+      "source": "PRESSURE_01",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_02",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_02_CONFIG",
+      "sampleKey": "PRESSURE_02_CALCULATED",
+      "displayName": "PRESSURE_02",
+      "source": "PRESSURE_02",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_03",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_03_CONFIG",
+      "sampleKey": "PRESSURE_03_CALCULATED",
+      "displayName": "PRESSURE_03",
+      "source": "PRESSURE_03",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_04",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_04_CONFIG",
+      "sampleKey": "PRESSURE_04_CALCULATED",
+      "displayName": "PRESSURE_04",
+      "source": "PRESSURE_04",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_05",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_05_CONFIG",
+      "sampleKey": "PRESSURE_05_CALCULATED",
+      "displayName": "PRESSURE_05",
+      "source": "PRESSURE_05",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_06",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_06_CONFIG",
+      "sampleKey": "PRESSURE_06_CALCULATED",
+      "displayName": "PRESSURE_06",
+      "source": "PRESSURE_06",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_07",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_07_CONFIG",
+      "sampleKey": "PRESSURE_07_CALCULATED",
+      "displayName": "PRESSURE_07",
+      "source": "PRESSURE_07",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_08",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_08_CONFIG",
+      "sampleKey": "PRESSURE_08_CALCULATED",
+      "displayName": "PRESSURE_08",
+      "source": "PRESSURE_08",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_09",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_09_CONFIG",
+      "sampleKey": "PRESSURE_09_CALCULATED",
+      "displayName": "PRESSURE_09",
+      "source": "PRESSURE_09",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_10",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_10_CONFIG",
+      "sampleKey": "PRESSURE_10_CALCULATED",
+      "displayName": "PRESSURE_10",
+      "source": "PRESSURE_10",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_11",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_11_CONFIG",
+      "sampleKey": "PRESSURE_11_CALCULATED",
+      "displayName": "PRESSURE_11",
+      "source": "PRESSURE_11",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_12",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_12_CONFIG",
+      "sampleKey": "PRESSURE_12_CALCULATED",
+      "displayName": "PRESSURE_12",
+      "source": "PRESSURE_12",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_13",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_13_CONFIG",
+      "sampleKey": "PRESSURE_13_CALCULATED",
+      "displayName": "PRESSURE_13",
+      "source": "PRESSURE_13",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "PRES_CABLEREEL_14",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_CABLEREEL_14_CONFIG",
+      "sampleKey": "PRESSURE_14_CALCULATED",
+      "displayName": "PRESSURE_14",
+      "source": "PRESSURE_14",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITOMETER_01_ANALOG",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "DENSITOMETER_01_CONFIG",
+      "sampleKey": "DENSITY_DENSITOMETER_01",
+      "displayName": "DENSITOMETER 1",
+      "source": "DENS_METER_01",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITOMETER_02_ANALOG",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "DENSITOMETER_02_CONFIG",
+      "sampleKey": "DENSITY_DENSITOMETER_02",
+      "displayName": "DENSITOMETER 2",
+      "source": "DENS_METER_02",
+      "scale": 1.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_01",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_CNTRINPT_01_CONFIG",
+      "sampleKey": "FLOW_CNTRINPT_01_RATE",
+      "displayName": "RATE 01",
+      "source": "FLOW_CNTRINPT_01",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_02",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "BBL/MIN",
+      "ipcId": "FLOW_CNTRINPT_02_CONFIG",
+      "sampleKey": "FLOW_CNTRINPT_02_RATE",
+      "displayName": "RATE 02",
+      "source": "FLOW_CNTRINPT_02",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "displayName": "DENS 2 STAGE TOTAL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.CALCULATED_PPA_DENSITY",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "",
+      "displayName": "DENS 2 CALC DENSITY",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_01_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "FLOW_CNTRINPT_01_STAGE_TOTAL",
+      "displayName": "RATE 01 STAGE TOTAL",
+      "associatedComponent": "FLOW_CNTRINPT_01_RESETTER",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_01_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "FLOW_CNTRINPT_01_STEP_TOTAL",
+      "displayName": "RATE 01 STEP TOTAL",
+      "associatedComponent": "FLOW_CNTRINPT_01_RESETTER",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_02_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "FLOW_CNTRINPT_02_STAGE_TOTAL",
+      "displayName": "RATE 02 STAGE TOTAL",
+      "associatedComponent": "FLOW_CNTRINPT_02_RESETTER",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_02_STEP_TOTAL_RAW",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "sampleKey": "FLOW_CNTRINPT_02_STEP_TOTAL",
+      "displayName": "RATE 02 STEP TOTAL",
+      "associatedComponent": "FLOW_CNTRINPT_02_RESETTER",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DVS_STAGE_CALCULATIONS.CURRENT_STEP_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.CURRENT_STEP",
+      "displayName": "DVS CURRENT STEP",
+      "constraints": []
+    },
+    {
+      "name": "DVS_STAGE_CALCULATIONS.STEP_PROGRESS_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.STEP_PROGRESS",
+      "displayName": "DVS STEP PROGRESS",
+      "scale": 100.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DVS_STAGE_CALCULATIONS.STAGE_STATE_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.STAGE_STATE",
+      "displayName": "DVS STAGE STATE",
+      "constraints": []
+    },
+    {
+      "name": "INLINE_PROPPANT.ON_STAGE_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.INLINE_PROPPANT.ON_STAGE",
+      "displayName": "INLINE PROPPANT ON STAGE",
+      "constraints": []
+    },
+    {
+      "name": "INLINE_PROPPANT_SOURCE.BULK_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "LBS/FT3",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.INLINE_PROPPANT_SOURCE.BULK_DENSITY",
+      "displayName": "MAIN HOPPER BULK DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "INLINE_PROPPANT_SOURCE.ABSOLUTE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "persistedUnitOfMeasure": "SG",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.INLINE_PROPPANT_SOURCE.ABSOLUTE_DENSITY",
+      "displayName": "MAIN HOPPER ABSOLUTE DENSITY",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.DENSITY_CALCULATION_DENSITOMETER_01.ENABLED",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_DENSITY",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 CALCULATED PPA DENSITY",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "ipcId": "",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_FLOW_RATE",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 CALCULATED PPA FLOW RATE",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.PPA_CORRECTION_FACTOR_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.DENSITY_CALCULATION_DENSITOMETER_01.PPA_CORRECTION_FACTOR",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 PPA CORRECTION FACTOR",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.STAGE_TOTAL",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.STEP_TOTAL",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.BASE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_01.BASE_DENSITY",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 1 BASE DENSITY",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_DENSITOMETER_01_AVG",
+      "unitOfMeasure": "LBS/MGAL",
+      "persistedUnitOfMeasure": "LBS/GAL",
+      "sampleKey": "DENSITY_DENSITOMETER_01",
+      "displayName": "DENSITY DENSITOMETER 1 AVG",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.ENABLED_RAW",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.DENSITY_CALCULATION_DENSITOMETER_02.ENABLED",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 ENABLED",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.CALCULATED_PPA_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_02.CALCULATED_PPA_DENSITY",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 CALCULATED PPA DENSITY",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.CALCULATED_PPA_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "ipcId": "",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_02.CALCULATED_PPA_FLOW_RATE",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 CALCULATED PPA FLOW RATE",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.PPA_CORRECTION_FACTOR_RAW",
+      "unitOfMeasure": "%",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.DENSITY_CALCULATION_DENSITOMETER_02.PPA_CORRECTION_FACTOR",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 PPA CORRECTION FACTOR",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_02.STAGE_TOTAL",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_02.STEP_TOTAL",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.BASE_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "ipcId": "",
+      "sampleKey": "DENSITY_CALCULATION_DENSITOMETER_02.BASE_DENSITY",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 2 BASE DENSITY",
+      "source": "",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_DENSITOMETER_02_AVG",
+      "unitOfMeasure": "LBS/MGAL",
+      "persistedUnitOfMeasure": "LBS/GAL",
+      "sampleKey": "DENSITY_DENSITOMETER_02",
+      "displayName": "DENSITY DENSITOMETER 2 AVG",
+      "constraints": []
+    },
+    {
+      "name": "ACTIVE_PPA_METHOD_RAW",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.ACTIVE_PPA_METHOD",
+      "displayName": "ACTIVE PPA METHOD",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_DENSITY_RAW",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.CURRENT_CALCULATED_PPA_DENSITY",
+      "displayName": "CURRENT CALCULATED PPA DENSITY",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_FLOW_RATE_RAW",
+      "unitOfMeasure": "LBS/MIN",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.CURRENT_CALCULATED_PPA_FLOW_RATE",
+      "displayName": "CURRENT CALCULATED PPA FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_VOLUME_FLOW_RATE_RAW",
+      "unitOfMeasure": "GPM",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.CURRENT_CALCULATED_PPA_VOLUME_FLOW_RATE",
+      "displayName": "CURRENT CALCULATED PPA VOLUME FLOW RATE",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_STAGE_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.CURRENT_CALCULATED_PPA_STAGE_TOTAL",
+      "displayName": "CURRENT CALCULATED PPA STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "CURRENT_CALCULATED_PPA_STEP_TOTAL_RAW",
+      "unitOfMeasure": "LBS",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.CURRENT_CALCULATED_PPA_STEP_TOTAL",
+      "displayName": "CURRENT CALCULATED PPA STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "MAINBOARD_BOARD_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "displayName": "MAINBOARD BOARD TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "MAINBOARD_CPU_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "displayName": "MAINBOARD BOARD CPU TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "EB07_TEMPERATURE",
+      "unitOfMeasure": "C",
+      "displayName": "EB07 TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "EKILL",
+      "unitOfMeasure": "RAW",
+      "displayName": "FLEET EKILL",
+      "constraints": []
+    },
+    {
+      "name": "FLEET_INST_NEUTRAL",
+      "unitOfMeasure": "RAW",
+      "displayName": "FLEET INSTANT NEUTRAL",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_GLOBAL_PRESSURE_TRIP",
+      "unitOfMeasure": "PSI",
+      "displayName": "SELECTED GLOBAL PRESSURE TRIP",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_GLOBAL_PRESSURE_TRIP.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED PRESSURE",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_SECONDARY_GLOBAL_PRESSURE_TRIP",
+      "unitOfMeasure": "PSI",
+      "displayName": "SELECTED SECONDARY GLOBAL PRESSURE TRIP",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_SECONDARY_GLOBAL_PRESSURE_TRIP.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED PRESSURE",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_BLENDER1_BOOST_PUMP_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "BLENDER 1 BOOST PUMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_BLENDER2_BOOST_PUMP_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "BBL",
+      "displayName": "BLENDER 2 BOOST PUMP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "EB07_STATUS",
+      "unitOfMeasure": "RAW",
+      "displayName": "EB07 STATUS",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "CONTROL_LOCAL_IP",
+      "unitOfMeasure": "RAW",
+      "displayName": "CONTROL LOCAL IP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "CONTROL_CURRENT_CONTROL_IP",
+      "unitOfMeasure": "RAW",
+      "displayName": "CONTROL CURRENT CONTROL IP",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "FLOW_CNTRINPT_01_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_CNTRINPT_01_CONFIG",
+      "displayName": "FLOW CNTRINPT 01 RATE",
+      "source": "FLOW_CNTRINPT_01",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_02_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_CNTRINPT_02_CONFIG",
+      "displayName": "FLOW CNTRINPT 02 RATE",
+      "source": "FLOW_CNTRINPT_02",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_03_RATE",
+      "unitOfMeasure": "GPM",
+      "ipcId": "FLOW_CNTRINPT_03_CONFIG",
+      "displayName": "FLOW CNTRINPT 03 RATE",
+      "source": "FLOW_CNTRINPT_03",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "E_KILL",
+      "unitOfMeasure": "BOOL",
+      "displayName": "E KILL",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_GLOBAL_PRESSURE_TRIP_CALCULATED",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED GLOBAL PRESSURE TRIP CALCULATED",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_GLOBAL_PRESSURE_TRIP_RAW_CALCULATED",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED GLOBAL PRESSURE TRIP RAW CALCULATED",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_PRESSURE_STROBE_LIGHT_CALCULATED",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED PRESSURE STROBE LIGHT CALCULATED",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_PRESSURE_STROBE_LIGHT_RAW_CALCULATED",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED PRESSURE STROBE LIGHT RAW CALCULATED",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_SECONDARY_GLOBAL_PRESSURE_TRIP_CALCULATED",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED SECONDARY GLOBAL PRESSURE TRIP CALCULATED",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_SECONDARY_GLOBAL_PRESSURE_TRIP_RAW_CALCULATED",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED SECONDARY GLOBAL PRESSURE TRIP RAW CALCULATED",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_01_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "FLOW CNTRINPT 01 STEP TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_01_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "FLOW CNTRINPT 01 STAGE TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_02_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "FLOW CNTRINPT 02 STAGE TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_02_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "FLOW CNTRINPT 02 STEP TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_03_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "FLOW CNTRINPT 03 STAGE TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "FLOW_CNTRINPT_03_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "FLOW CNTRINPT 03 STEP TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITOMETER_01",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "DENSITOMETER 01",
+      "source": "DENS_METER_01",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITOMETER_02",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "DENSITOMETER 02",
+      "source": "DENS_METER_02",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_01",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 01",
+      "source": "PRES_CABLEREEL_01",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_DENSITOMETER_01",
+      "unitOfMeasure": "LBS/GAL",
+      "displayName": "DENSITY DENSITOMETER 01",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_DENSITOMETER_02",
+      "unitOfMeasure": "LBS/GAL",
+      "displayName": "DENSITY DENSITOMETER 02",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_02",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 02",
+      "source": "PRES_CABLEREEL_02",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_03",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 03",
+      "source": "PRES_CABLEREEL_03",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_04",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 04",
+      "source": "PRES_CABLEREEL_04",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_05",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 05",
+      "source": "PRES_CABLEREEL_05",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_06",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 06",
+      "source": "PRES_CABLEREEL_06",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_07",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 07",
+      "source": "PRES_CABLEREEL_07",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_08",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 08",
+      "source": "PRES_CABLEREEL_08",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_09",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 09",
+      "source": "PRES_CABLEREEL_09",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_10",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 10",
+      "source": "PRES_CABLEREEL_10",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_11",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 11",
+      "source": "PRES_CABLEREEL_11",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_12",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 12",
+      "source": "PRES_CABLEREEL_12",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_13",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 13",
+      "source": "PRES_CABLEREEL_13",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_14",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 14",
+      "source": "PRES_CABLEREEL_14",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_15",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 15",
+      "source": "PRES_CABLEREEL_15",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_16",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 16",
+      "source": "PRES_CABLEREEL_16",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_17",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 17",
+      "source": "PRES_CABLEREEL_17",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_18",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 18",
+      "source": "PRES_CABLEREEL_18",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_19",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 19",
+      "source": "PRES_CABLEREEL_19",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_20",
+      "unitOfMeasure": "I",
+      "ipcId": "IDENTITY",
+      "displayName": "PRESSURE 20",
+      "source": "PRES_CABLEREEL_20",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "PRESSURE_01_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 01 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_02_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 02 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_03_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 03 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_04_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 04 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_05_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 05 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_06_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 06 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_07_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 07 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_08_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 08 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_09_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 09 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_10_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 10 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_11_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 11 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_12_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 12 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_13_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 13 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_14_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 14 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_15_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 15 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_16_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 16 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_17_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 17 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_18_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 18 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_19_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 19 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "PRESSURE_20_CALCULATED",
+      "unitOfMeasure": "PSI",
+      "displayName": "PRESSURE 20 CALCULATED",
+      "constraints": []
+    },
+    {
+      "name": "COMBINED_CLEAN_RATE",
+      "unitOfMeasure": "GPM",
+      "displayName": "COMBINED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "COMBINED_CLEAN_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "COMBINED CLEAN STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "COMBINED_CLEAN_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "persistedUnitOfMeasure": "",
+      "displayName": "COMBINED CLEAN STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "COMBINED_DISCHARGE_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "",
+      "displayName": "COMBINED DISCHARGE RATE",
+      "constraints": []
+    },
+    {
+      "name": "COMBINED_DISCHARGE_STEP_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "COMBINED DISCHARGE STEP TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "COMBINED_DISCHARGE_STAGE_TOTAL",
+      "unitOfMeasure": "GAL",
+      "displayName": "COMBINED DISCHARGE STAGE TOTAL",
+      "constraints": []
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.BASE_DENSITY",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 01 BASE DENSITY",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_DENSITY",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 01 CALCULATED PPA DENSITY",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.CALCULATED_PPA_FLOW_RATE",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 01 CALCULATED PPA FLOW RATE",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.BASE_DENSITY",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 02 BASE DENSITY",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.CALCULATED_PPA_FLOW_RATE",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 02 CALCULATED PPA FLOW RATE",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITOMETER_01_READING_CHECK",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITOMETER 01 READING CHECK",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITOMETER_02_READING_CHECK",
+      "unitOfMeasure": "I",
+      "displayName": "DENSITOMETER 02 READING CHECK",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 01 STEP TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_01.STAGE_TOTAL",
+      "unitOfMeasure": "LBS",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 01 STAGE TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DENSITY_CALCULATION_DENSITOMETER_02.STEP_TOTAL",
+      "unitOfMeasure": "LBS",
+      "displayName": "DENSITY CALCULATION DENSITOMETER 02 STEP TOTAL",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "",
+      "displayName": "SELECTED CLEAN RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_CLEAN_RATE.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED CLEAN RATE CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_DIRTY_RATE",
+      "unitOfMeasure": "GPM",
+      "persistedUnitOfMeasure": "",
+      "displayName": "SELECTED DIRTY RATE",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_DIRTY_RATE.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED DIRTY RATE CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_GLOBAL_PRESSURE_TRIP_RAW",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED GLOBAL PRESSURE TRIP RAW",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_GLOBAL_PRESSURE_TRIP_RAW.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED GLOBAL PRESSURE TRIP RAW CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_SECONDARY_GLOBAL_PRESSURE_TRIP_RAW",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED SECONDARY GLOBAL PRESSURE TRIP RAW",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_SECONDARY_GLOBAL_PRESSURE_TRIP_RAW.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED SECONDARY GLOBAL PRESSURE TRIP RAW CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_PRESSURE_STROBE_LIGHT",
+      "unitOfMeasure": "PSI",
+      "persistedUnitOfMeasure": "",
+      "displayName": "SELECTED PRESSURE STROBE LIGHT",
+      "constraints": []
+    },
+    {
+      "name": "SELECTED_PRESSURE_STROBE_LIGHT.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED PRESSURE STROBE LIGHT CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_PRESSURE_STROBE_LIGHT_RAW",
+      "unitOfMeasure": "I",
+      "displayName": "SELECTED PRESSURE STROBE LIGHT RAW",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_PRESSURE_STROBE_LIGHT_RAW.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED PRESSURE STROBE LIGHT RAW CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_BLENDER1_BOOST_PUMP_STAGE_TOTAL.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED BLENDER1 BOOST PUMP STAGE TOTAL CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "SELECTED_BLENDER2_BOOST_PUMP_STAGE_TOTAL.CURRENT_SELECTION",
+      "unitOfMeasure": "RAW",
+      "displayName": "SELECTED BLENDER2 BOOST PUMP STAGE TOTAL CURRENT SELECTION",
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DVS_STAGE_CALCULATIONS.IN_EKILL",
+      "unitOfMeasure": "RAW",
+      "persistedUnitOfMeasure": "",
+      "displayName": "DVS STAGE CALCULATIONS IN EKILL",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "DVS_STAGE_CALCULATIONS.CURRENT_BLENDER_STATE",
+      "unitOfMeasure": "RAW",
+      "displayName": "DVS STAGE CALCULATIONS CURRENT BLENDER STATE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": [],
+      "persist": false
+    },
+    {
+      "name": "DVS_STAGE_CALCULATIONS.SIMULATED_RATE_ACTIVE",
+      "unitOfMeasure": "RAW",
+      "displayName": "DVS STAGE CALCULATIONS SIMULATED RATE ACTIVE",
+      "scale": 1.0,
+      "offset": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "INLINE_PROPPANT.SET_POINT",
+      "unitOfMeasure": "LBS/GAL",
+      "sampleKey": "DVS_STAGE_CALCULATIONS.INLINE_PROPPANT.SET_POINT",
+      "displayName": "INLINE PROPPANT SETPOINT",
+      "constraints": []
+    }
+  ],
+  "fileVersion": 1
+}

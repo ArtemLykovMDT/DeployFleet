@@ -1,0 +1,18 @@
+{
+  "RegistrationName": "750125",
+  "RegistrationDescription": "",
+  "RegistrationGuid": "da2c2a5e-0886-4ec5-ae2c-c9a2eb85bee6",
+  "EngineModel": "",
+  "TransModel": "",
+  "DataVanHMIIp": "10.10.12.217",
+  "LocalHMIIp": "10.10.17.229",
+  "RegistrationName_U09": "750125",
+  "RegistrationGuid_U09": "64fd6616-8ede-45ab-a7d4-ccc81217fd9d",
+  "U09Ip": "10.10.137.3",
+  "configs": {
+    "FREQ_LA_PUMP_01_CONFIG": {
+      "kfactor": 110000.0,
+      "scalingFactor": 1.0
+    }
+  }
+}

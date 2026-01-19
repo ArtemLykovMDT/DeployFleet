@@ -1,0 +1,162 @@
+{
+  "configs": [
+    {
+      "unitOfMeasure": "(I)",
+      "description": "IDENTITY",
+      "ipcId": "IDENTITY",
+      "scalingFactor": 1.0,
+      "kfactor": 1.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "DISCHARGE PRESS",
+      "ipcId": "PRES_DISCHARGE_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 15000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "PWR END LUBE PRESS",
+      "ipcId": "PRES_PWRENDLUBE_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 750.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "SUCTION PRESS",
+      "ipcId": "PRES_SUCTION_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 300.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "TRANS LUBE PRESS",
+      "ipcId": "PRES_TRANSLUBE_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 750.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(F)",
+      "description": "PWR END LUBE TEMP",
+      "ipcId": "TEMP_PWRENDLUBE_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": -40.0,
+      "sensMax": 400.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(i)",
+      "description": "Identity",
+      "ipcId": "TRANS_LUBE_PRESS_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "GREASER PRESSURE 01",
+      "ipcId": "GREASER.PRESSURE_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "GREASER PRESSURE 02",
+      "ipcId": "GREASER.PRESSURE_02_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "GREASER PRESSURE 05",
+      "ipcId": "GREASER.PRESSURE_05_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "GREASER PRESSURE 04",
+      "ipcId": "GREASER.PRESSURE_04_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "GREASER PRESSURE 03",
+      "ipcId": "GREASER.PRESSURE_03_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(PSI)",
+      "description": "GREASER PRESSURE 06",
+      "ipcId": "GREASER.PRESSURE_06_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 5000.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "PWR END LUBE FLOW",
+      "ipcId": "FLOW_PWRENDLUBE_01_CONFIG",
+      "scalingFactor": 1.0,
+      "sensMin": 0.0,
+      "sensMax": 160.0,
+      "sigMin": 4000.0,
+      "sigMax": 20000.0,
+      "sigMinOffset": 0.0,
+      "sigMaxOffset": 0.0
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+services:
+
+  # --- AUTOGEN UNITS BEGIN ---
+  "621833":
+    build:
+      context: ./stw/.
+      args:
+        simName: 621833
+        config_dir: ./621833
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    #volumes:
+      #- 621833_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.122
+  # --- AUTOGEN UNITS END ---
+  dvs:
+    build:
+      context: ./stw/.
+      args:
+        simName: dvs
+        config_dir: ./dvs
+    stdin_open: true
+    tty: true
+    volumes:
+      - dvs_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.207
+
+  dvs_primary:
+    build:
+      context: ./stw/.
+      args:
+        simName: dvs_primary
+        config_dir: ./dvs_primary
+    stdin_open: true
+    tty: true
+    volumes:
+      - dvs_primary_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.11
+
+  dvs_secondary:
+    build:
+      context: ./stw/.
+      args:
+        simName: dvs_secondary
+        config_dir: ./dvs_secondary
+    stdin_open: true
+    tty: true
+    volumes:
+      - dvs_secondary_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.12
+
+  blender_eng:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./blender_eng/QTerm/.
+        simName: blender_eng
+        config_dir: ./blender_eng
+    stdin_open: true
+    tty: true
+    volumes:
+      - blender_eng_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.20
+
+  blender_adds:
+    build:
+      context: ./stw/.
+      args:
+        simName: blender_adds
+        config_dir: ./blender_adds
+    stdin_open: true
+    tty: true
+    volumes:
+      - blender_adds_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.21
+
+  blender2_eng:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./blender2_eng/QTerm/.
+        simName: blender2_eng
+        config_dir: ./blender2_eng
+    stdin_open: true
+    tty: true
+    volumes:
+      - blender2_eng_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.22
+
+  blender2_adds:
+    build:
+      context: ./stw/.
+      args:
+        simName: blender2_adds
+        config_dir: ./blender2_adds
+    stdin_open: true
+    tty: true
+    volumes:
+      - blender2_adds_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.23
+
+  chem1:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./chem1/QTerm/.
+        simName: chem1
+        config_dir: ./chem1
+    stdin_open: true
+    tty: true
+    volumes:
+      - chem1_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.25
+
+  chem2:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./chem2/QTerm/.
+        simName: chem2
+        config_dir: ./chem2
+    stdin_open: true
+    tty: true
+    volumes:
+      - chem2_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.26
+
+  echem1:
+    build:
+      context: ./stw/.
+      args:
+        simName: echem1
+        config_dir: ./echem1
+    stdin_open: true
+    tty: true
+    volumes:
+      - echem1_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.27
+
+  echem2:
+    build:
+      context: ./stw/.
+      args:
+        simName: echem2
+        config_dir: ./echem2
+    stdin_open: true
+    tty: true
+    volumes:
+      - echem2_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.28
+
+  hydration:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./hydration/QTerm/.
+        simName: hydration
+        config_dir: ./hydration
+    stdin_open: true
+    tty: true
+    volumes:
+      - hydration_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.30
+
+  eblender:
+    build:
+      context: ./stw/.
+      args:
+        simName: eblender
+        config_dir: ./eblender
+    stdin_open: true
+    tty: true
+    volumes:
+      - eblender_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.35
+
+  blender_ssb_rs:
+    build:
+      context: ./stw/.
+      args:
+        simName: blender_ssb_rs
+        config_dir: ./blender_ssb_rs
+    stdin_open: true
+    tty: true
+    volumes:
+      - blender_ssb_rs:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.38
+
+  blender_ssb_cs:
+    build:
+      context: ./stw/.
+      args:
+        simName: blender_ssb_cs
+        config_dir: ./blender_ssb_cs
+    stdin_open: true
+    tty: true
+    volumes:
+      - blender_ssb_cs:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.39
+
+  prv:
+    build:
+      context: ./stw/.
+      args:
+        simName: prv
+        config_dir: ./prv
+    stdin_open: true
+    tty: true
+    volumes:
+      - prv_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.50
+
+  prs1:
+    build:
+      context: ./stw/.
+      args:
+        simName: prs1
+        config_dir: ./prs1
+    stdin_open: true
+    tty: true
+    volumes:
+      - prs1_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.61
+
+  prs2:
+    build:
+      context: ./stw/.
+      args:
+        simName: prs2
+        config_dir: ./prs2
+    stdin_open: true
+    tty: true
+    volumes:
+      - prs2_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.62
+
+  fpc01:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc01
+        config_dir: ./fpc01
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc01_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.101
+
+  fpc02:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc02
+        config_dir: ./fpc02
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc02_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.102
+
+  fpc03:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc03
+        config_dir: ./fpc03
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc03_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.103
+
+  fpc04:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc04
+        config_dir: ./fpc04
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc04_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.104
+
+  fpc05:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc05
+        config_dir: ./fpc05
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc05_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.105
+
+  fpc06:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc06
+        config_dir: ./fpc06
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc06_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.106
+
+  fpc07:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc07
+        config_dir: ./fpc07
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc07_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.107
+
+  fpc08:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc08
+        config_dir: ./fpc08
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc08_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.108
+
+  fpc09:
+    build:
+      context: ./stw/.
+      args:
+        simName: fpc09
+        config_dir: ./fpc09
+    stdin_open: true
+    tty: true
+    volumes:
+      - fpc09_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.109
+
+  efpc10:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc10/QTerm/.
+        simName: efpc10
+        config_dir: ./efpc10
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc10_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.110
+
+  efpc11:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc11
+        config_dir: ./efpc11
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc11_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.111
+
+  efpc12:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc12
+        config_dir: ./efpc12
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc12_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.112
+
+  efpc13:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc13
+        config_dir: ./efpc13
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc13_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.113
+
+  efpc14:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc14
+        config_dir: ./efpc14
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc14_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.114
+
+  efpc15:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc15
+        config_dir: ./efpc15
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc15_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.115
+
+  efpc16:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc16
+        config_dir: ./efpc16
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc16_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.116
+
+  efpc17:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc17
+        config_dir: ./efpc17
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc17_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.117
+
+  efpc18:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc18
+        config_dir: ./efpc18
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc18_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.118
+
+  efpc19:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./efpc11/QTerm/.
+        simName: efpc19
+        config_dir: ./efpc19
+    stdin_open: true
+    tty: true
+    volumes:
+      - efpc19_etc:/home/developer/Development/test/data/dataflash/etc
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.119
+
+  gms01:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./gms01/QTerm/.
+        simName: gms01
+        config_dir: ./gms01
+    stdin_open: true
+    tty: true
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.120
+
+  gms02:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./gms02/QTerm/.
+        simName: gms02
+        config_dir: ./gms02
+    stdin_open: true
+    tty: true
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.121
+
+  dd35:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./dd35/QTerm/.
+        simName: dd35
+        config_dir: ./dd35
+    stdin_open: true
+    tty: true
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.135
+
+  thor:
+    build:
+      context: ./stw/.
+      args:
+        qterm_dir: ./thor/QTerm/.
+        simName: thor
+        config_dir: ./thor
+    stdin_open: true
+    tty: true
+    networks:
+      stwnet:
+        ipv4_address: 172.18.1.150
+
+networks:
+  stwnet:
+    external: true
+volumes:
+  # --- AUTOGEN UNIT VOLUMES BEGIN ---
+  621833_etc:
+  # --- AUTOGEN UNIT VOLUMES END ---
+  dvs_etc:
+  dvs_primary_etc:
+  dvs_secondary_etc:
+  blender_eng_etc:
+  blender_adds_etc:
+  blender2_eng_etc:
+  blender2_adds_etc:
+  chem1_etc:
+  chem2_etc:
+  echem1_etc:
+  echem2_etc:
+  hydration_etc:
+  eblender_etc:
+  blender_ssb_rs:
+  blender_ssb_cs:
+  prv_etc:
+  prs1_etc:
+  prs2_etc:
+  fpc01_etc:
+  fpc02_etc:
+  fpc03_etc:
+  fpc04_etc:
+  fpc05_etc:
+  fpc06_etc:
+  fpc07_etc:
+  fpc08_etc:
+  fpc09_etc:
+  efpc10_etc:
+  efpc11_etc:
+  efpc12_etc:
+  efpc13_etc:
+  efpc14_etc:
+  efpc15_etc:
+  efpc16_etc:
+  efpc17_etc:
+  efpc18_etc:
+  efpc19_etc:

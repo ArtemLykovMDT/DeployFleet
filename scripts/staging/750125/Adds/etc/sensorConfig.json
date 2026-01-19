@@ -1,0 +1,200 @@
+{
+  "configs": [
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 1 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 158027.453125
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 2 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_02_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 155795.078125
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 3 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_03_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 42791.51953125
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 4 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_04_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 43535.1015625
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 5 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_05_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 158027.453125
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 6 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_06_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 155795.078125
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 7 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_07_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 42791.51953125
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "CHEM PUMP 8 RPM FLOW",
+      "ipcId": "FLOW_RPM_LA_PUMP_08_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 43535.1015625
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "FREQ DA SPEED 1 A RATE",
+      "ipcId": "FREQ_DA_SPEED_01_A_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 3750.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "FREQ DA SPEED 2 A RATE",
+      "ipcId": "FREQ_DA_SPEED_02_A_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 3750.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 1 FLOW",
+      "ipcId": "FREQ_LA_PUMP_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 2 FLOW",
+      "ipcId": "FREQ_LA_PUMP_02_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 3 FLOW",
+      "ipcId": "FREQ_LA_PUMP_03_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 4 FLOW",
+      "ipcId": "FREQ_LA_PUMP_04_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 5 FLOW",
+      "ipcId": "FREQ_LA_PUMP_05_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 6 FLOW",
+      "ipcId": "FREQ_LA_PUMP_06_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 7 FLOW",
+      "ipcId": "FREQ_LA_PUMP_07_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(GPM)",
+      "description": "CHEM PUMP 8 FLOW",
+      "ipcId": "FREQ_LA_PUMP_08_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 100000.0
+    },
+    {
+      "unitOfMeasure": "(I)",
+      "description": "IDENTITY",
+      "ipcId": "IDENTITY",
+      "scalingFactor": 1.0,
+      "kfactor": 1.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 1 RPM",
+      "ipcId": "RPM_LA_PUMP_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 2 RPM",
+      "ipcId": "RPM_LA_PUMP_02_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 3 RPM",
+      "ipcId": "RPM_LA_PUMP_03_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 4 RPM",
+      "ipcId": "RPM_LA_PUMP_04_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 5 RPM",
+      "ipcId": "RPM_LA_PUMP_05_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 6 RPM",
+      "ipcId": "RPM_LA_PUMP_06_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 7 RPM",
+      "ipcId": "RPM_LA_PUMP_07_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "RPM",
+      "description": "LA 8 RPM",
+      "ipcId": "RPM_LA_PUMP_08_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 1000.0
+    },
+    {
+      "unitOfMeasure": "GPM",
+      "description": "FLOW ACID MAG 1",
+      "ipcId": "FLOW_ACID_MAG_01_CONFIG",
+      "scalingFactor": 1.0,
+      "kfactor": 16.600000381469727
+    }
+  ]
+}

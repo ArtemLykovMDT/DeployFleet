@@ -1,0 +1,105 @@
+{
+   "RegistrationName": "622011",
+   "RegistrationDescription": "622011",
+   "SerialNumber": "FPC8107",
+   "PumpModel": "EF5L-2500Q",
+   "RegistrationGuid": "d9cd5f64-1dd2-11b2-bb79-001d4832d16a",
+   "EngineModel": "Cummins QSK50 Tier2",
+   "TransModel": "CAT TH55E90",
+   "DataVanHMIIp": "10.10.11.207",
+   "LocalHMIIp": "10.10.117.150",
+   "RpcIp": "192.168.0.92",
+   "HardwareRev": "8.0",
+   "powertrains": {
+      "PUMP1": {
+         "cylinders": 5,
+         "bore": 4.0,
+         "stroke": 8.0,
+         "gearRatio": 6.3530001640319824,
+         "efficiency": 0.93999999761581421
+      },
+      "PWM_FAN_CONTROL": {
+         "enabled": false,
+         "invertedRange": false,
+         "constantOn": true,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "VOLTAGE_FAN_CONTROL": {
+         "enabled": true,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "PUMPLUBE1": {
+         "rotationsPerLubeCycleOff": 60,
+         "cycleDuration": 15000,
+         "proximityCountsPerCycle": 0
+      }
+   },
+   "configs": {
+      "FLOW_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 6.0,
+         "scalingFactor": 1.0,
+         "sensMax": 160.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": -1000.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": -1000.0
+      },
+      "PRES_DISCHARGE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 15000.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 66.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 66.0
+      },
+      "PRES_SUCTION_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 300.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 513.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 513.0
+      }
+   },
+   "constraints": {
+      "highCircuitLowFlowCriticalAtRpm": {
+         "enabled": true,
+         "equalReading": null,
+         "minReading": 20.0,
+         "maxDuration": 3000,
+         "hmiOnly": false,
+         "resetDuration": 100,
+         "maxReading": null,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      },
+      "highCircuitLowFlowWarningAtRpm": {
+         "enabled": true,
+         "equalReading": null,
+         "minReading": null,
+         "maxDuration": 3000,
+         "hmiOnly": false,
+         "resetDuration": 100,
+         "maxReading": 50.0,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      }
+   },
+   "MPCSecondaryIp": "10.10.16.207"
+}

@@ -1,0 +1,167 @@
+{
+   "RegistrationName": "621945",
+   "RegistrationDescription": "621945",
+   "SerialNumber": "FPC2151",
+   "PumpModel": "GD",
+   "RegistrationGuid": "062a5c04-720f-4c36-8e23-705ee4bb3945",
+   "EngineModel": "Cummins QSK50 Tier2",
+   "TransModel": "CAT TH55E70",
+   "DataVanHMIIp": "10.10.11.207",
+   "LocalHMIIp": "10.10.172.4",
+   "RpcIp": "192.168.0.92",
+   "HardwareRev": "6.0",
+   "powertrains": {
+      "PUMPLUBE1": {
+         "rotationsPerLubeCycleOff": 60,
+         "cycleDuration": 15000,
+         "proximityCountsPerCycle": 0
+      },
+      "VOLTAGE_FAN_CONTROL": {
+         "enabled": false,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 201.0,
+         "lowTemperature": 130.0
+      },
+      "PWM_FAN_CONTROL": {
+         "enabled": true,
+         "invertedRange": false,
+         "constantOn": false,
+         "failOn": false,
+         "highTemperature": 180.0,
+         "lowTemperature": 130.0
+      },
+      "PUMP1": {
+         "cylinders": 5,
+         "bore": 4.0,
+         "stroke": 8.0,
+         "gearRatio": 6.3530001640319824,
+         "efficiency": 0.93999999761581421
+      }
+   },
+   "configs": {
+      "PRES_DISCHARGE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 15000.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 171.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 171.0
+      },
+      "PRES_SUCTION_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 300.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 166.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 166.0
+      },
+      "TEMP_PWRENDLUBE_01_CONFIG": {
+         "sensMin": -40.0,
+         "scalingFactor": 1.0,
+         "sensMax": 400.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "PRES_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 750.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 54.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 54.0
+      },
+      "PRES_TRANSLUBE_01_CONFIG": {
+         "sensMin": 0.0,
+         "scalingFactor": 1.0,
+         "sensMax": 750.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      },
+      "FLOW_PWRENDLUBE_01_CONFIG": {
+         "sensMin": 6.0,
+         "scalingFactor": 1.0,
+         "sensMax": 160.0,
+         "sigMin": 4000.0,
+         "sigMinOffset": 0.0,
+         "sigMax": 20000.0,
+         "sigMaxOffset": 0.0
+      }
+   },
+   "constraints": {
+      "transmissionTempWarning": {
+         "enabled": false,
+         "minReading": 0.0,
+         "maxDuration": 5000,
+         "hmiOnly": false,
+         "resetDuration": 2000,
+         "maxReading": 220.0,
+         "minRaw": null,
+         "maxRaw": null
+      },
+      "transmissionTempInstantNeutral": {
+         "enabled": false,
+         "minReading": null,
+         "maxDuration": 5000,
+         "hmiOnly": false,
+         "resetDuration": 2000,
+         "maxReading": 230.0,
+         "minRaw": null,
+         "maxRaw": null
+      },
+      "highCircuitLowFlowCriticalAtRpm": {
+         "enabled": true,
+         "equalReading": null,
+         "minReading": 40.0,
+         "maxDuration": 3000,
+         "hmiOnly": false,
+         "resetDuration": 100,
+         "maxReading": null,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      },
+      "highCircuitLowFlowWarningAtRpm": {
+         "enabled": true,
+         "equalReading": null,
+         "minReading": 40.0,
+         "maxDuration": 3000,
+         "hmiOnly": false,
+         "resetDuration": 100,
+         "maxReading": null,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      },
+      "engineTempTooLowForWarmStart": {
+         "enabled": false,
+         "equalReading": null,
+         "minReading": 32.0,
+         "maxDuration": 1000,
+         "hmiOnly": false,
+         "resetDuration": 1000,
+         "maxReading": null,
+         "equalEpsilon": null,
+         "equalInverted": null,
+         "minRaw": null,
+         "maxRaw": null,
+         "equalRaw": null,
+         "equalInvertedRaw": null
+      }
+   },
+   "MPCSecondaryIp": "10.10.16.207"
+}
